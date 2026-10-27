@@ -1,0 +1,174 @@
+#include "perf/MetricStore.h"
+#include "fusionui/Abi.h"
+
+#include <algorithm>
+#include <cmath>
+#include <limits>
+
+namespace fusionui::perf {
+    struct MetricStore::Entry {
+        MetricMeta meta;
+        mutable std::mutex lock;
+        double pending{};
+        bool hasPending{};
+        std::string pendingText;
+        bool hasPendingText{};
+        double current = std::numeric_limits<double>::quiet_NaN();
+        bool hasValue{};
+        std::string text;
+        std::array<float, kHistory> ring{};
+        std::array<double, kHistory> times{};
+        std::uint32_t head{}, size{};
+        // The overlay and page Read() every metric each frame; the percentiles are cached.
+        Stats stats;
+        double statsAt = -1.0;
+        std::uint32_t statsHead{}, statsSize{};
+    };
+
+    MetricStore::MetricStore() = default;
+    MetricStore::~MetricStore() = default;
+
+    MetricStore::Entry* MetricStore::At(std::uint32_t handle) const {
+        return handle >= 1 && handle <= count_.load(std::memory_order_acquire) ? entries_[handle - 1].get() : nullptr;
+    }
+
+    std::uint32_t MetricStore::Register(std::string_view id, std::string_view label, std::string_view group,
+                                        std::uint32_t unit, std::uint32_t flags) {
+        if (!ValidId(id)) return 0;
+        std::scoped_lock guard(registry_);
+        if (const auto found = byId_.find(std::string(id)); found != byId_.end()) return found->second;
+        const auto index = count_.load(std::memory_order_relaxed);
+        if (index >= kMaxMetrics) return 0;
+        auto entry = std::make_unique<Entry>();
+        entry->meta = {std::string(id), std::string(OwnerOf(id)), label.empty() ? std::string(id) : std::string(label),
+                       std::string(group), unit, flags};
+        entries_[index] = std::move(entry);
+        byId_.emplace(std::string(id), index + 1);
+        count_.store(index + 1, std::memory_order_release);
+        return index + 1;
+    }
+
+    std::optional<std::uint32_t> MetricStore::Find(std::string_view id) const {
+        std::scoped_lock guard(registry_);
+        const auto found = byId_.find(std::string(id));
+        return found == byId_.end() ? std::nullopt : std::optional(found->second);
+    }
+
+    const MetricMeta* MetricStore::Meta(std::uint32_t handle) const {
+        const auto* entry = At(handle);
+        return entry ? &entry->meta : nullptr;
+    }
+
+    void MetricStore::Push(std::uint32_t handle, double value) {
+        auto* entry = At(handle);
+        if (!entry || !std::isfinite(value)) return;
+        std::scoped_lock guard(entry->lock);
+        entry->pending = value;
+        entry->hasPending = true;
+    }
+
+    void MetricStore::PushText(std::uint32_t handle, std::string_view text) {
+        auto* entry = At(handle);
+        if (!entry) return;
+        std::scoped_lock guard(entry->lock);
+        entry->pendingText.assign(text);
+        entry->hasPendingText = true;
+    }
+
+    void MetricStore::CloseFrame(FrameRow* row, bool allTexts, double now) {
+        const auto count = Count();
+        if (row) {
+            row->values.assign(count, std::numeric_limits<float>::quiet_NaN());
+            row->texts.clear();
+        }
+        for (std::uint32_t i = 0; i < count; ++i) {
+            auto& e = *entries_[i];
+            std::scoped_lock guard(e.lock);
+            if (e.hasPending) {
+                e.hasPending = false;
+                e.current = e.pending;
+                e.hasValue = true;
+                e.ring[e.head] = static_cast<float>(e.pending);
+                e.times[e.head] = now;
+                e.head = (e.head + 1) % kHistory;
+                e.size = std::min(e.size + 1, kHistory);
+                if (row) row->values[i] = static_cast<float>(e.pending);
+            }
+            const bool changed = e.hasPendingText && e.pendingText != e.text;
+            if (e.hasPendingText) {
+                e.hasPendingText = false;
+                e.text.swap(e.pendingText);
+                e.hasValue = true;
+            }
+            if (row && (changed || (allTexts && e.meta.unit == FUSIONUI_UNIT_TEXT && e.hasValue))) row->texts.emplace_back(i, e.text);
+        }
+    }
+
+    std::uint32_t MetricStore::History(std::uint32_t handle, float* out, std::uint32_t capacity) const {
+        const auto* entry = At(handle);
+        if (!entry || !out) return 0;
+        std::scoped_lock guard(entry->lock);
+        const auto n = std::min(capacity, entry->size);
+        const auto start = (entry->head + kHistory - n) % kHistory;
+        for (std::uint32_t i = 0; i < n; ++i) out[i] = entry->ring[(start + i) % kHistory];
+        return n;
+    }
+
+    std::uint32_t MetricStore::HistoryTimed(std::uint32_t handle, float* values, double* times, std::uint32_t capacity) const {
+        const auto* entry = At(handle);
+        if (!entry || !values || !times) return 0;
+        std::scoped_lock guard(entry->lock);
+        const auto n = std::min(capacity, entry->size);
+        const auto start = (entry->head + kHistory - n) % kHistory;
+        for (std::uint32_t i = 0; i < n; ++i) {
+            values[i] = entry->ring[(start + i) % kHistory];
+            times[i] = entry->times[(start + i) % kHistory];
+        }
+        return n;
+    }
+
+    std::vector<float> MetricStore::History(std::uint32_t handle) const {
+        std::vector<float> out(kHistory);
+        out.resize(History(handle, out.data(), kHistory));
+        return out;
+    }
+
+    double MetricStore::Current(std::uint32_t handle) const {
+        const auto* entry = At(handle);
+        if (!entry) return std::numeric_limits<double>::quiet_NaN();
+        std::scoped_lock guard(entry->lock);
+        return entry->current;
+    }
+
+    bool MetricStore::Read(std::uint32_t handle, Snapshot& out) const {
+        auto* entry = At(handle);
+        if (!entry) return false;
+        std::array<float, kHistory> copy;
+        std::uint32_t n{}, head{};
+        double newest{};
+        {
+            std::scoped_lock guard(entry->lock);
+            out.hasValue = entry->hasValue;
+            out.current = entry->current;
+            out.text = entry->text;
+            n = entry->size;
+            head = entry->head;
+            newest = n ? entry->times[(entry->head + kHistory - 1) % kHistory] : 0.0;
+            const bool unchanged = entry->head == entry->statsHead && entry->size == entry->statsSize;
+            // A clock that does not advance (tests pass no time) recomputes on every new sample.
+            if (entry->statsAt >= 0.0 && (unchanged || (newest > entry->statsAt && newest - entry->statsAt < kStatsRefreshSeconds))) {
+                out.stats = entry->stats;
+                return true;
+            }
+            const auto start = (entry->head + kHistory - n) % kHistory;
+            for (std::uint32_t i = 0; i < n; ++i) copy[i] = entry->ring[(start + i) % kHistory];
+        }
+        out.stats = Compute(std::span<const float>(copy.data(), n));
+        std::scoped_lock guard(entry->lock);
+        entry->stats = out.stats;
+        entry->statsAt = newest;
+        entry->statsHead = head;
+        entry->statsSize = n;
+        return true;
+    }
+}

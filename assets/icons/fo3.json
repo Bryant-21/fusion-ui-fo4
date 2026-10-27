@@ -1,0 +1,1949 @@
+{
+ "cell": 512,
+ "height": 6016,
+ "icons": {
+  "fo3.arrow.adjust_decrease": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.005319,
+    0.078704,
+    0.090426
+   ],
+   "tintable": false
+  },
+  "fo3.arrow.adjust_increase": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.005319,
+    0.162037,
+    0.090426
+   ],
+   "tintable": false
+  },
+  "fo3.arrow.down": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.005319,
+    0.24537,
+    0.090426
+   ],
+   "tintable": false
+  },
+  "fo3.arrow.left": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.005319,
+    0.328704,
+    0.090426
+   ],
+   "tintable": false
+  },
+  "fo3.arrow.pointer": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.005319,
+    0.412037,
+    0.090426
+   ],
+   "tintable": false
+  },
+  "fo3.arrow.right": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.005319,
+    0.49537,
+    0.090426
+   ],
+   "tintable": false
+  },
+  "fo3.arrow.text_arrow": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.005319,
+    0.578704,
+    0.090426
+   ],
+   "tintable": false
+  },
+  "fo3.arrow.up": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.005319,
+    0.662037,
+    0.090426
+   ],
+   "tintable": false
+  },
+  "fo3.body.head": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.005319,
+    0.74537,
+    0.090426
+   ],
+   "tintable": false
+  },
+  "fo3.body.left_arm": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.005319,
+    0.828704,
+    0.090426
+   ],
+   "tintable": false
+  },
+  "fo3.body.left_arm_broken": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.005319,
+    0.912037,
+    0.090426
+   ],
+   "tintable": false
+  },
+  "fo3.body.left_leg": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.005319,
+    0.99537,
+    0.090426
+   ],
+   "tintable": false
+  },
+  "fo3.body.left_leg_broken": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.101064,
+    0.078704,
+    0.18617
+   ],
+   "tintable": false
+  },
+  "fo3.body.rad_icon": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.101064,
+    0.162037,
+    0.18617
+   ],
+   "tintable": false
+  },
+  "fo3.body.right_arm": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.101064,
+    0.24537,
+    0.18617
+   ],
+   "tintable": false
+  },
+  "fo3.body.right_leg": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.101064,
+    0.328704,
+    0.18617
+   ],
+   "tintable": false
+  },
+  "fo3.body.right_leg_broken": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.101064,
+    0.412037,
+    0.18617
+   ],
+   "tintable": false
+  },
+  "fo3.crosshair.filled": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.101064,
+    0.49537,
+    0.18617
+   ],
+   "tintable": false
+  },
+  "fo3.crosshair.legacy_filled": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.101064,
+    0.578704,
+    0.18617
+   ],
+   "tintable": false
+  },
+  "fo3.crosshair.legacy_outline": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.101064,
+    0.662037,
+    0.18617
+   ],
+   "tintable": false
+  },
+  "fo3.crosshair.legacy_thin": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.101064,
+    0.74537,
+    0.18617
+   ],
+   "tintable": false
+  },
+  "fo3.crosshair.scope_stock_mesh": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.101064,
+    0.828704,
+    0.18617
+   ],
+   "tintable": false
+  },
+  "fo3.crosshair.standard": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.101064,
+    0.912037,
+    0.18617
+   ],
+   "tintable": false
+  },
+  "fo3.cursor": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.101064,
+    0.99537,
+    0.18617
+   ],
+   "tintable": false
+  },
+  "fo3.hud.compass_pc_marker": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.196809,
+    0.078704,
+    0.281915
+   ],
+   "tintable": false
+  },
+  "fo3.hud.crosshair": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.196809,
+    0.162037,
+    0.281915
+   ],
+   "tintable": false
+  },
+  "fo3.hud.crosshair_filled": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.196809,
+    0.24537,
+    0.281915
+   ],
+   "tintable": false
+  },
+  "fo3.hud.explosive_indicator": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.196809,
+    0.328704,
+    0.281915
+   ],
+   "tintable": false
+  },
+  "fo3.item.alcohol": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.196809,
+    0.412037,
+    0.281915
+   ],
+   "tintable": false
+  },
+  "fo3.item.bigguns": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.196809,
+    0.49537,
+    0.281915
+   ],
+   "tintable": false
+  },
+  "fo3.item.bodywear": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.196809,
+    0.578704,
+    0.281915
+   ],
+   "tintable": false
+  },
+  "fo3.item.books": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.196809,
+    0.662037,
+    0.281915
+   ],
+   "tintable": false
+  },
+  "fo3.item.chems": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.196809,
+    0.74537,
+    0.281915
+   ],
+   "tintable": false
+  },
+  "fo3.item.energyweapons": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.196809,
+    0.828704,
+    0.281915
+   ],
+   "tintable": false
+  },
+  "fo3.item.food": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.196809,
+    0.912037,
+    0.281915
+   ],
+   "tintable": false
+  },
+  "fo3.item.handwear": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.196809,
+    0.99537,
+    0.281915
+   ],
+   "tintable": false
+  },
+  "fo3.item.headwear": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.292553,
+    0.078704,
+    0.37766
+   ],
+   "tintable": false
+  },
+  "fo3.item.melee": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.292553,
+    0.162037,
+    0.37766
+   ],
+   "tintable": false
+  },
+  "fo3.item.mine": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.292553,
+    0.24537,
+    0.37766
+   ],
+   "tintable": false
+  },
+  "fo3.item.repair_kit": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.292553,
+    0.328704,
+    0.37766
+   ],
+   "tintable": false
+  },
+  "fo3.item.smallguns": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.292553,
+    0.412037,
+    0.37766
+   ],
+   "tintable": false
+  },
+  "fo3.item.stimpack": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.292553,
+    0.49537,
+    0.37766
+   ],
+   "tintable": false
+  },
+  "fo3.item.surgerykit": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.292553,
+    0.578704,
+    0.37766
+   ],
+   "tintable": false
+  },
+  "fo3.item.thrown": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.292553,
+    0.662037,
+    0.37766
+   ],
+   "tintable": false
+  },
+  "fo3.item.unarmed": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.292553,
+    0.74537,
+    0.37766
+   ],
+   "tintable": false
+  },
+  "fo3.map.cave": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.292553,
+    0.828704,
+    0.37766
+   ],
+   "tintable": false
+  },
+  "fo3.map.city": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.292553,
+    0.912037,
+    0.37766
+   ],
+   "tintable": false
+  },
+  "fo3.map.door": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.292553,
+    0.99537,
+    0.37766
+   ],
+   "tintable": false
+  },
+  "fo3.map.encampment": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.388298,
+    0.078704,
+    0.473404
+   ],
+   "tintable": false
+  },
+  "fo3.map.factory": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.388298,
+    0.162037,
+    0.473404
+   ],
+   "tintable": false
+  },
+  "fo3.map.metro": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.388298,
+    0.24537,
+    0.473404
+   ],
+   "tintable": false
+  },
+  "fo3.map.military": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.388298,
+    0.328704,
+    0.473404
+   ],
+   "tintable": false
+  },
+  "fo3.map.monument": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.388298,
+    0.412037,
+    0.473404
+   ],
+   "tintable": false
+  },
+  "fo3.map.natural_landmark": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.388298,
+    0.49537,
+    0.473404
+   ],
+   "tintable": false
+  },
+  "fo3.map.office": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.388298,
+    0.578704,
+    0.473404
+   ],
+   "tintable": false
+  },
+  "fo3.map.ruins_sewer": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.388298,
+    0.662037,
+    0.473404
+   ],
+   "tintable": false
+  },
+  "fo3.map.ruins_town": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.388298,
+    0.74537,
+    0.473404
+   ],
+   "tintable": false
+  },
+  "fo3.map.ruins_urban": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.388298,
+    0.828704,
+    0.473404
+   ],
+   "tintable": false
+  },
+  "fo3.map.settlement": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.388298,
+    0.912037,
+    0.473404
+   ],
+   "tintable": false
+  },
+  "fo3.map.undiscovered": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.388298,
+    0.99537,
+    0.473404
+   ],
+   "tintable": false
+  },
+  "fo3.map.vault": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.484043,
+    0.078704,
+    0.569149
+   ],
+   "tintable": false
+  },
+  "fo3.marker.square": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.484043,
+    0.162037,
+    0.569149
+   ],
+   "tintable": false
+  },
+  "fo3.marker.x": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.484043,
+    0.24537,
+    0.569149
+   ],
+   "tintable": false
+  },
+  "fo3.tales.acid": {
+   "mask": true,
+   "shape": [
+    0.002315,
+    0.577128,
+    0.039352,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.ammo": {
+   "mask": true,
+   "shape": [
+    0.043981,
+    0.577128,
+    0.081019,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.area": {
+   "mask": true,
+   "shape": [
+    0.085648,
+    0.577128,
+    0.122685,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.atom": {
+   "mask": true,
+   "shape": [
+    0.127315,
+    0.577128,
+    0.164352,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.badge": {
+   "mask": true,
+   "shape": [
+    0.168981,
+    0.577128,
+    0.206019,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.ban": {
+   "mask": true,
+   "shape": [
+    0.210648,
+    0.577128,
+    0.247685,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.battery": {
+   "mask": true,
+   "shape": [
+    0.252315,
+    0.577128,
+    0.289352,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.blueprint": {
+   "mask": true,
+   "shape": [
+    0.293981,
+    0.577128,
+    0.331019,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.body": {
+   "mask": true,
+   "shape": [
+    0.335648,
+    0.577128,
+    0.372685,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.bolt": {
+   "mask": true,
+   "shape": [
+    0.377315,
+    0.577128,
+    0.414352,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.book": {
+   "mask": true,
+   "shape": [
+    0.418981,
+    0.577128,
+    0.456019,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.boot": {
+   "mask": true,
+   "shape": [
+    0.460648,
+    0.577128,
+    0.497685,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.bottle": {
+   "mask": true,
+   "shape": [
+    0.502315,
+    0.577128,
+    0.539352,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.bucket": {
+   "mask": true,
+   "shape": [
+    0.543981,
+    0.577128,
+    0.581019,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.calendar": {
+   "mask": true,
+   "shape": [
+    0.585648,
+    0.577128,
+    0.622685,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.car": {
+   "mask": true,
+   "shape": [
+    0.668981,
+    0.577128,
+    0.706019,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.cards": {
+   "mask": true,
+   "shape": [
+    0.710648,
+    0.577128,
+    0.747685,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.case": {
+   "mask": true,
+   "shape": [
+    0.752315,
+    0.577128,
+    0.789352,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.charge": {
+   "mask": true,
+   "shape": [
+    0.793981,
+    0.577128,
+    0.831019,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.check": {
+   "mask": true,
+   "shape": [
+    0.835648,
+    0.577128,
+    0.872685,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.coin": {
+   "mask": true,
+   "shape": [
+    0.877315,
+    0.577128,
+    0.914352,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.crate": {
+   "mask": true,
+   "shape": [
+    0.918981,
+    0.577128,
+    0.956019,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.crown": {
+   "mask": true,
+   "shape": [
+    0.960648,
+    0.577128,
+    0.997685,
+    0.619681
+   ],
+   "tintable": false
+  },
+  "fo3.tales.dart": {
+   "mask": true,
+   "shape": [
+    0.002315,
+    0.625,
+    0.039352,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.dice": {
+   "mask": true,
+   "shape": [
+    0.043981,
+    0.625,
+    0.081019,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.disease": {
+   "mask": true,
+   "shape": [
+    0.085648,
+    0.625,
+    0.122685,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.dna": {
+   "mask": true,
+   "shape": [
+    0.127315,
+    0.625,
+    0.164352,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.dodge": {
+   "mask": true,
+   "shape": [
+    0.168981,
+    0.625,
+    0.206019,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.door": {
+   "mask": true,
+   "shape": [
+    0.210648,
+    0.625,
+    0.247685,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.dots": {
+   "mask": true,
+   "shape": [
+    0.252315,
+    0.625,
+    0.289352,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.downed": {
+   "mask": true,
+   "shape": [
+    0.293981,
+    0.625,
+    0.331019,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.face_ally": {
+   "mask": true,
+   "shape": [
+    0.335648,
+    0.625,
+    0.372685,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.face_cautious": {
+   "mask": true,
+   "shape": [
+    0.377315,
+    0.625,
+    0.414352,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.face_cooperative": {
+   "mask": true,
+   "shape": [
+    0.418981,
+    0.625,
+    0.456019,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.face_friendly": {
+   "mask": true,
+   "shape": [
+    0.460648,
+    0.625,
+    0.497685,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.face_hostile": {
+   "mask": true,
+   "shape": [
+    0.502315,
+    0.625,
+    0.539352,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.face_neighborly": {
+   "mask": true,
+   "shape": [
+    0.543981,
+    0.625,
+    0.581019,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.face_neutral": {
+   "mask": true,
+   "shape": [
+    0.585648,
+    0.625,
+    0.622685,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.film": {
+   "mask": true,
+   "shape": [
+    0.627315,
+    0.625,
+    0.664352,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.filters": {
+   "mask": true,
+   "shape": [
+    0.668981,
+    0.625,
+    0.706019,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.flame": {
+   "mask": true,
+   "shape": [
+    0.710648,
+    0.625,
+    0.747685,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.floor": {
+   "mask": true,
+   "shape": [
+    0.752315,
+    0.625,
+    0.789352,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.food": {
+   "mask": true,
+   "shape": [
+    0.793981,
+    0.625,
+    0.831019,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.four": {
+   "mask": true,
+   "shape": [
+    0.835648,
+    0.625,
+    0.872685,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.frame": {
+   "mask": true,
+   "shape": [
+    0.877315,
+    0.625,
+    0.914352,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.gasmask": {
+   "mask": true,
+   "shape": [
+    0.918981,
+    0.625,
+    0.956019,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.gauge": {
+   "mask": true,
+   "shape": [
+    0.960648,
+    0.625,
+    0.997685,
+    0.667553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.gear": {
+   "mask": true,
+   "shape": [
+    0.002315,
+    0.672872,
+    0.039352,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.gears": {
+   "mask": true,
+   "shape": [
+    0.043981,
+    0.672872,
+    0.081019,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.gem": {
+   "mask": true,
+   "shape": [
+    0.002315,
+    0.93883,
+    0.039352,
+    0.981383
+   ],
+   "tintable": false
+  },
+  "fo3.tales.goggles": {
+   "mask": true,
+   "shape": [
+    0.085648,
+    0.672872,
+    0.122685,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.gold": {
+   "mask": true,
+   "shape": [
+    0.127315,
+    0.672872,
+    0.164352,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.hammer": {
+   "mask": true,
+   "shape": [
+    0.168981,
+    0.672872,
+    0.206019,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.hammer_up": {
+   "mask": true,
+   "shape": [
+    0.210648,
+    0.672872,
+    0.247685,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.heart": {
+   "mask": true,
+   "shape": [
+    0.252315,
+    0.672872,
+    0.289352,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.history": {
+   "mask": true,
+   "shape": [
+    0.293981,
+    0.672872,
+    0.331019,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.horse": {
+   "mask": true,
+   "shape": [
+    0.335648,
+    0.672872,
+    0.372685,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.house": {
+   "mask": true,
+   "shape": [
+    0.377315,
+    0.672872,
+    0.414352,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.ingot": {
+   "mask": true,
+   "shape": [
+    0.418981,
+    0.672872,
+    0.456019,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.lamp": {
+   "mask": true,
+   "shape": [
+    0.460648,
+    0.672872,
+    0.497685,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.layers": {
+   "mask": true,
+   "shape": [
+    0.502315,
+    0.672872,
+    0.539352,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.leaf": {
+   "mask": true,
+   "shape": [
+    0.543981,
+    0.672872,
+    0.581019,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.lens": {
+   "mask": true,
+   "shape": [
+    0.585648,
+    0.672872,
+    0.622685,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.levelup": {
+   "mask": true,
+   "shape": [
+    0.627315,
+    0.672872,
+    0.664352,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.lifesaver": {
+   "mask": true,
+   "shape": [
+    0.668981,
+    0.672872,
+    0.706019,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.link": {
+   "mask": true,
+   "shape": [
+    0.710648,
+    0.672872,
+    0.747685,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.lock": {
+   "mask": true,
+   "shape": [
+    0.752315,
+    0.672872,
+    0.789352,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.loot": {
+   "mask": true,
+   "shape": [
+    0.793981,
+    0.672872,
+    0.831019,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.lose": {
+   "mask": true,
+   "shape": [
+    0.835648,
+    0.672872,
+    0.872685,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.mic": {
+   "mask": true,
+   "shape": [
+    0.877315,
+    0.672872,
+    0.914352,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.minus": {
+   "mask": true,
+   "shape": [
+    0.918981,
+    0.672872,
+    0.956019,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.moon": {
+   "mask": true,
+   "shape": [
+    0.043981,
+    0.93883,
+    0.081019,
+    0.981383
+   ],
+   "tintable": false
+  },
+  "fo3.tales.move": {
+   "mask": true,
+   "shape": [
+    0.960648,
+    0.672872,
+    0.997685,
+    0.715426
+   ],
+   "tintable": false
+  },
+  "fo3.tales.muted": {
+   "mask": true,
+   "shape": [
+    0.002315,
+    0.720745,
+    0.039352,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.note": {
+   "mask": true,
+   "shape": [
+    0.043981,
+    0.720745,
+    0.081019,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.ops": {
+   "mask": true,
+   "shape": [
+    0.085648,
+    0.720745,
+    0.122685,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.pa": {
+   "mask": true,
+   "shape": [
+    0.127315,
+    0.720745,
+    0.164352,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.pack": {
+   "mask": true,
+   "shape": [
+    0.168981,
+    0.720745,
+    0.206019,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.people": {
+   "mask": true,
+   "shape": [
+    0.210648,
+    0.720745,
+    0.247685,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.person": {
+   "mask": true,
+   "shape": [
+    0.252315,
+    0.720745,
+    0.289352,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.pet": {
+   "mask": true,
+   "shape": [
+    0.293981,
+    0.720745,
+    0.331019,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.picture": {
+   "mask": true,
+   "shape": [
+    0.335648,
+    0.720745,
+    0.372685,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.pin": {
+   "mask": true,
+   "shape": [
+    0.377315,
+    0.720745,
+    0.414352,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.pistol": {
+   "mask": true,
+   "shape": [
+    0.002315,
+    0.875,
+    0.039352,
+    0.917553
+   ],
+   "tintable": false
+  },
+  "fo3.tales.play": {
+   "mask": true,
+   "shape": [
+    0.418981,
+    0.720745,
+    0.456019,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.plus": {
+   "mask": true,
+   "shape": [
+    0.460648,
+    0.720745,
+    0.497685,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.quest": {
+   "mask": true,
+   "shape": [
+    0.502315,
+    0.720745,
+    0.539352,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.rank1": {
+   "mask": true,
+   "shape": [
+    0.543981,
+    0.720745,
+    0.581019,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.rank2": {
+   "mask": true,
+   "shape": [
+    0.585648,
+    0.720745,
+    0.622685,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.rank3": {
+   "mask": true,
+   "shape": [
+    0.627315,
+    0.720745,
+    0.664352,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.reflect": {
+   "mask": true,
+   "shape": [
+    0.668981,
+    0.720745,
+    0.706019,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.replace": {
+   "mask": true,
+   "shape": [
+    0.710648,
+    0.720745,
+    0.747685,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.revive": {
+   "mask": true,
+   "shape": [
+    0.752315,
+    0.720745,
+    0.789352,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.roller": {
+   "mask": true,
+   "shape": [
+    0.793981,
+    0.720745,
+    0.831019,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.roof": {
+   "mask": true,
+   "shape": [
+    0.835648,
+    0.720745,
+    0.872685,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.roulette": {
+   "mask": true,
+   "shape": [
+    0.877315,
+    0.720745,
+    0.914352,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.search": {
+   "mask": true,
+   "shape": [
+    0.918981,
+    0.720745,
+    0.956019,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.set": {
+   "mask": true,
+   "shape": [
+    0.960648,
+    0.720745,
+    0.997685,
+    0.763298
+   ],
+   "tintable": false
+  },
+  "fo3.tales.set_active": {
+   "mask": true,
+   "shape": [
+    0.002315,
+    0.768617,
+    0.039352,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.shield": {
+   "mask": true,
+   "shape": [
+    0.043981,
+    0.768617,
+    0.081019,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.skull": {
+   "mask": true,
+   "shape": [
+    0.085648,
+    0.768617,
+    0.122685,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.skull_elite": {
+   "mask": true,
+   "shape": [
+    0.127315,
+    0.768617,
+    0.164352,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.skull_up": {
+   "mask": true,
+   "shape": [
+    0.168981,
+    0.768617,
+    0.206019,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.sleep": {
+   "mask": true,
+   "shape": [
+    0.210648,
+    0.768617,
+    0.247685,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.slots3": {
+   "mask": true,
+   "shape": [
+    0.252315,
+    0.768617,
+    0.289352,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.slots5": {
+   "mask": true,
+   "shape": [
+    0.293981,
+    0.768617,
+    0.331019,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.snow": {
+   "mask": true,
+   "shape": [
+    0.335648,
+    0.768617,
+    0.372685,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.sofa": {
+   "mask": true,
+   "shape": [
+    0.377315,
+    0.768617,
+    0.414352,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.speaker": {
+   "mask": true,
+   "shape": [
+    0.418981,
+    0.768617,
+    0.456019,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.stairs": {
+   "mask": true,
+   "shape": [
+    0.460648,
+    0.768617,
+    0.497685,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.stamp": {
+   "mask": true,
+   "shape": [
+    0.502315,
+    0.768617,
+    0.539352,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.star": {
+   "mask": true,
+   "shape": [
+    0.543981,
+    0.768617,
+    0.581019,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.star_empty": {
+   "mask": true,
+   "shape": [
+    0.585648,
+    0.768617,
+    0.622685,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.stealth": {
+   "mask": true,
+   "shape": [
+    0.627315,
+    0.768617,
+    0.664352,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.sun": {
+   "mask": true,
+   "shape": [
+    0.085648,
+    0.93883,
+    0.122685,
+    0.981383
+   ],
+   "tintable": false
+  },
+  "fo3.tales.tadpole": {
+   "mask": true,
+   "shape": [
+    0.668981,
+    0.768617,
+    0.706019,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.target": {
+   "mask": true,
+   "shape": [
+    0.710648,
+    0.768617,
+    0.747685,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.target_boss": {
+   "mask": true,
+   "shape": [
+    0.752315,
+    0.768617,
+    0.789352,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.target_elite": {
+   "mask": true,
+   "shape": [
+    0.793981,
+    0.768617,
+    0.831019,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.tea": {
+   "mask": true,
+   "shape": [
+    0.835648,
+    0.768617,
+    0.872685,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.terminal": {
+   "mask": true,
+   "shape": [
+    0.877315,
+    0.768617,
+    0.914352,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.ticket": {
+   "mask": true,
+   "shape": [
+    0.918981,
+    0.768617,
+    0.956019,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.torso": {
+   "mask": true,
+   "shape": [
+    0.960648,
+    0.768617,
+    0.997685,
+    0.81117
+   ],
+   "tintable": false
+  },
+  "fo3.tales.trash": {
+   "mask": true,
+   "shape": [
+    0.002315,
+    0.816489,
+    0.039352,
+    0.859043
+   ],
+   "tintable": false
+  },
+  "fo3.tales.vaultsuit": {
+   "mask": true,
+   "shape": [
+    0.043981,
+    0.816489,
+    0.081019,
+    0.859043
+   ],
+   "tintable": false
+  },
+  "fo3.tales.wall": {
+   "mask": true,
+   "shape": [
+    0.085648,
+    0.816489,
+    0.122685,
+    0.859043
+   ],
+   "tintable": false
+  },
+  "fo3.tales.water": {
+   "mask": true,
+   "shape": [
+    0.127315,
+    0.816489,
+    0.164352,
+    0.859043
+   ],
+   "tintable": false
+  },
+  "fo3.tales.week": {
+   "mask": true,
+   "shape": [
+    0.168981,
+    0.816489,
+    0.206019,
+    0.859043
+   ],
+   "tintable": false
+  },
+  "fo3.tales.weight": {
+   "mask": true,
+   "shape": [
+    0.210648,
+    0.816489,
+    0.247685,
+    0.859043
+   ],
+   "tintable": false
+  },
+  "fo3.tales.world": {
+   "mask": true,
+   "shape": [
+    0.252315,
+    0.816489,
+    0.289352,
+    0.859043
+   ],
+   "tintable": false
+  },
+  "fo3.tales.xp": {
+   "mask": true,
+   "shape": [
+    0.293981,
+    0.816489,
+    0.331019,
+    0.859043
+   ],
+   "tintable": false
+  }
+ },
+ "texture": "fo3.dds",
+ "version": 1,
+ "width": 6912
+}

@@ -1,0 +1,3009 @@
+{
+ "cell": 128,
+ "height": 4352,
+ "icons": {
+  "bonus.armor": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.001838,
+    0.078704,
+    0.03125
+   ],
+   "tintable": false
+  },
+  "bonus.condition": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.001838,
+    0.162037,
+    0.03125
+   ],
+   "tintable": false
+  },
+  "bonus.weight": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.001838,
+    0.24537,
+    0.03125
+   ],
+   "tintable": false
+  },
+  "camp.badge.fo1st": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.001838,
+    0.328704,
+    0.03125
+   ],
+   "tintable": false
+  },
+  "camp.badge.locked": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.001838,
+    0.412037,
+    0.03125
+   ],
+   "tintable": false
+  },
+  "camp.badge.missing": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.001838,
+    0.49537,
+    0.03125
+   ],
+   "tintable": false
+  },
+  "camp.badge.premium": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.001838,
+    0.578704,
+    0.03125
+   ],
+   "tintable": false
+  },
+  "camp.badge.unavailable": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.001838,
+    0.662037,
+    0.03125
+   ],
+   "tintable": false
+  },
+  "camp.badge.variants": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.001838,
+    0.74537,
+    0.03125
+   ],
+   "tintable": false
+  },
+  "camp.card.tagged": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.001838,
+    0.828704,
+    0.03125
+   ],
+   "tintable": false
+  },
+  "camp.card.transferlock": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.001838,
+    0.912037,
+    0.03125
+   ],
+   "tintable": false
+  },
+  "camp.category.blueprint": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.001838,
+    0.99537,
+    0.03125
+   ],
+   "tintable": false
+  },
+  "camp.category.camp": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.034926,
+    0.078704,
+    0.064338
+   ],
+   "tintable": false
+  },
+  "camp.category.containers": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.034926,
+    0.162037,
+    0.064338
+   ],
+   "tintable": false
+  },
+  "camp.category.crafting": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.034926,
+    0.24537,
+    0.064338
+   ],
+   "tintable": false
+  },
+  "camp.category.decor": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.034926,
+    0.328704,
+    0.064338
+   ],
+   "tintable": false
+  },
+  "camp.category.defense": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.034926,
+    0.412037,
+    0.064338
+   ],
+   "tintable": false
+  },
+  "camp.category.dwellers": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.034926,
+    0.49537,
+    0.064338
+   ],
+   "tintable": false
+  },
+  "camp.category.edit": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.034926,
+    0.578704,
+    0.064338
+   ],
+   "tintable": false
+  },
+  "camp.category.fo1st": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.034926,
+    0.662037,
+    0.064338
+   ],
+   "tintable": false
+  },
+  "camp.category.furniture": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.034926,
+    0.74537,
+    0.064338
+   ],
+   "tintable": false
+  },
+  "camp.category.history": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.034926,
+    0.828704,
+    0.064338
+   ],
+   "tintable": false
+  },
+  "camp.category.lights": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.034926,
+    0.912037,
+    0.064338
+   ],
+   "tintable": false
+  },
+  "camp.category.lock": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.034926,
+    0.99537,
+    0.064338
+   ],
+   "tintable": false
+  },
+  "camp.category.power": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.068015,
+    0.078704,
+    0.097426
+   ],
+   "tintable": false
+  },
+  "camp.category.quest": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.068015,
+    0.162037,
+    0.097426
+   ],
+   "tintable": false
+  },
+  "camp.category.replace": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.068015,
+    0.24537,
+    0.097426
+   ],
+   "tintable": false
+  },
+  "camp.category.resources": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.068015,
+    0.328704,
+    0.097426
+   ],
+   "tintable": false
+  },
+  "camp.category.structures": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.068015,
+    0.412037,
+    0.097426
+   ],
+   "tintable": false
+  },
+  "camp.category.walldecor": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.068015,
+    0.49537,
+    0.097426
+   ],
+   "tintable": false
+  },
+  "camp.category.wallpapers": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.068015,
+    0.578704,
+    0.097426
+   ],
+   "tintable": false
+  },
+  "camp.resource.acid": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.068015,
+    0.662037,
+    0.097426
+   ],
+   "tintable": false
+  },
+  "camp.resource.aluminum": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.068015,
+    0.74537,
+    0.097426
+   ],
+   "tintable": false
+  },
+  "camp.resource.copper": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.068015,
+    0.828704,
+    0.097426
+   ],
+   "tintable": false
+  },
+  "camp.resource.fertilizer": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.068015,
+    0.912037,
+    0.097426
+   ],
+   "tintable": false
+  },
+  "camp.resource.food": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.068015,
+    0.99537,
+    0.097426
+   ],
+   "tintable": false
+  },
+  "camp.resource.power": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.101103,
+    0.078704,
+    0.130515
+   ],
+   "tintable": false
+  },
+  "camp.resource.powergenerated": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.101103,
+    0.162037,
+    0.130515
+   ],
+   "tintable": false
+  },
+  "camp.resource.safety": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.101103,
+    0.24537,
+    0.130515
+   ],
+   "tintable": false
+  },
+  "camp.resource.scavenge": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.101103,
+    0.328704,
+    0.130515
+   ],
+   "tintable": false
+  },
+  "camp.resource.steel": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.101103,
+    0.412037,
+    0.130515
+   ],
+   "tintable": false
+  },
+  "camp.resource.water": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.101103,
+    0.49537,
+    0.130515
+   ],
+   "tintable": false
+  },
+  "casino.dice.dealer": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.101103,
+    0.578704,
+    0.130515
+   ],
+   "tintable": false
+  },
+  "casino.roulette.dealer": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.101103,
+    0.662037,
+    0.130515
+   ],
+   "tintable": false
+  },
+  "casino.roulette.wheel": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.101103,
+    0.74537,
+    0.130515
+   ],
+   "tintable": false
+  },
+  "casino.slots.lose": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.101103,
+    0.828704,
+    0.130515
+   ],
+   "tintable": false
+  },
+  "casino.slots3": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.101103,
+    0.912037,
+    0.130515
+   ],
+   "tintable": false
+  },
+  "casino.slots5": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.101103,
+    0.99537,
+    0.130515
+   ],
+   "tintable": false
+  },
+  "challenge.complete": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.134191,
+    0.078704,
+    0.163603
+   ],
+   "tintable": false
+  },
+  "compass.briefcase": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.134191,
+    0.162037,
+    0.163603
+   ],
+   "tintable": false
+  },
+  "compass.camp": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.134191,
+    0.24537,
+    0.163603
+   ],
+   "tintable": false
+  },
+  "compass.enemy": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.134191,
+    0.328704,
+    0.163603
+   ],
+   "tintable": false
+  },
+  "compass.enemy.targeted": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.134191,
+    0.412037,
+    0.163603
+   ],
+   "tintable": false
+  },
+  "compass.location": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.134191,
+    0.49537,
+    0.163603
+   ],
+   "tintable": false
+  },
+  "compass.location.undiscovered": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.134191,
+    0.578704,
+    0.163603
+   ],
+   "tintable": false
+  },
+  "compass.nukezone": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.134191,
+    0.662037,
+    0.163603
+   ],
+   "tintable": false
+  },
+  "compass.pet": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.134191,
+    0.74537,
+    0.163603
+   ],
+   "tintable": false
+  },
+  "compass.player.friendly": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.134191,
+    0.828704,
+    0.163603
+   ],
+   "tintable": false
+  },
+  "compass.player.hostile": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.134191,
+    0.912037,
+    0.163603
+   ],
+   "tintable": false
+  },
+  "compass.player.neutral": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.134191,
+    0.99537,
+    0.163603
+   ],
+   "tintable": false
+  },
+  "compass.powerarmor": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.167279,
+    0.078704,
+    0.196691
+   ],
+   "tintable": false
+  },
+  "compass.quest": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.167279,
+    0.162037,
+    0.196691
+   ],
+   "tintable": false
+  },
+  "compass.quest.area": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.167279,
+    0.24537,
+    0.196691
+   ],
+   "tintable": false
+  },
+  "compass.quest.distance": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.167279,
+    0.328704,
+    0.196691
+   ],
+   "tintable": false
+  },
+  "compass.quest.door": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.167279,
+    0.412037,
+    0.196691
+   ],
+   "tintable": false
+  },
+  "compass.quest.main": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.167279,
+    0.49537,
+    0.196691
+   ],
+   "tintable": false
+  },
+  "compass.quest.npc": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.167279,
+    0.578704,
+    0.196691
+   ],
+   "tintable": false
+  },
+  "compass.quest.shared": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.167279,
+    0.662037,
+    0.196691
+   ],
+   "tintable": false
+  },
+  "compass.teammate": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.167279,
+    0.74537,
+    0.196691
+   ],
+   "tintable": false
+  },
+  "compass.teammate.dead": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.167279,
+    0.828704,
+    0.196691
+   ],
+   "tintable": false
+  },
+  "compass.teammate.down": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.167279,
+    0.912037,
+    0.196691
+   ],
+   "tintable": false
+  },
+  "compass.teammate.leader": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.167279,
+    0.99537,
+    0.196691
+   ],
+   "tintable": false
+  },
+  "compass.terminal": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.200368,
+    0.078704,
+    0.229779
+   ],
+   "tintable": false
+  },
+  "compass.vendor.legendary": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.200368,
+    0.162037,
+    0.229779
+   ],
+   "tintable": false
+  },
+  "compass.workshop": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.200368,
+    0.24537,
+    0.229779
+   ],
+   "tintable": false
+  },
+  "currency.atoms": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.200368,
+    0.328704,
+    0.229779
+   ],
+   "tintable": false
+  },
+  "currency.badge": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.200368,
+    0.412037,
+    0.229779
+   ],
+   "tintable": false
+  },
+  "currency.bullion": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.200368,
+    0.49537,
+    0.229779
+   ],
+   "tintable": false
+  },
+  "currency.caps": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.200368,
+    0.578704,
+    0.229779
+   ],
+   "tintable": false
+  },
+  "currency.caps.hud": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.200368,
+    0.662037,
+    0.229779
+   ],
+   "tintable": false
+  },
+  "currency.perkcoin": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.200368,
+    0.74537,
+    0.229779
+   ],
+   "tintable": false
+  },
+  "currency.perkpack": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.200368,
+    0.828704,
+    0.229779
+   ],
+   "tintable": false
+  },
+  "currency.scrip": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.200368,
+    0.912037,
+    0.229779
+   ],
+   "tintable": false
+  },
+  "currency.stamps": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.200368,
+    0.99537,
+    0.229779
+   ],
+   "tintable": false
+  },
+  "currency.supplies": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.233456,
+    0.078704,
+    0.262868
+   ],
+   "tintable": false
+  },
+  "currency.tadpole": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.233456,
+    0.162037,
+    0.262868
+   ],
+   "tintable": false
+  },
+  "cursor": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.233456,
+    0.24537,
+    0.262868
+   ],
+   "tintable": false
+  },
+  "cursor.outline": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.233456,
+    0.328704,
+    0.262868
+   ],
+   "tintable": false
+  },
+  "dailyops.logo": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.233456,
+    0.412037,
+    0.262868
+   ],
+   "tintable": false
+  },
+  "dailyops.rank.elder": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.233456,
+    0.49537,
+    0.262868
+   ],
+   "tintable": false
+  },
+  "dailyops.rank.initiate": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.233456,
+    0.578704,
+    0.262868
+   ],
+   "tintable": false
+  },
+  "dailyops.rank.paladin": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.233456,
+    0.662037,
+    0.262868
+   ],
+   "tintable": false
+  },
+  "dailyops.wordmark": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.233456,
+    0.74537,
+    0.262868
+   ],
+   "tintable": false
+  },
+  "damage.ballistic": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.233456,
+    0.828704,
+    0.262868
+   ],
+   "tintable": false
+  },
+  "damage.bleed": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.233456,
+    0.912037,
+    0.262868
+   ],
+   "tintable": false
+  },
+  "damage.cold": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.233456,
+    0.99537,
+    0.262868
+   ],
+   "tintable": false
+  },
+  "damage.energy": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.266544,
+    0.078704,
+    0.295956
+   ],
+   "tintable": false
+  },
+  "damage.explosive": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.266544,
+    0.162037,
+    0.295956
+   ],
+   "tintable": false
+  },
+  "damage.fire": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.266544,
+    0.24537,
+    0.295956
+   ],
+   "tintable": false
+  },
+  "damage.poison": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.266544,
+    0.328704,
+    0.295956
+   ],
+   "tintable": false
+  },
+  "damage.radiation": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.266544,
+    0.412037,
+    0.295956
+   ],
+   "tintable": false
+  },
+  "effect.adrenaline": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.266544,
+    0.49537,
+    0.295956
+   ],
+   "tintable": false
+  },
+  "effect.alcohol": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.266544,
+    0.578704,
+    0.295956
+   ],
+   "tintable": false
+  },
+  "effect.bleed": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.266544,
+    0.662037,
+    0.295956
+   ],
+   "tintable": false
+  },
+  "effect.buff.negative": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.266544,
+    0.74537,
+    0.295956
+   ],
+   "tintable": false
+  },
+  "effect.buff.positive": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.266544,
+    0.828704,
+    0.295956
+   ],
+   "tintable": false
+  },
+  "effect.candybucket": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.266544,
+    0.912037,
+    0.295956
+   ],
+   "tintable": false
+  },
+  "effect.chargeup": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.266544,
+    0.99537,
+    0.295956
+   ],
+   "tintable": false
+  },
+  "effect.chems": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.299632,
+    0.078704,
+    0.329044
+   ],
+   "tintable": false
+  },
+  "effect.disease": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.299632,
+    0.162037,
+    0.329044
+   ],
+   "tintable": false
+  },
+  "effect.drinkgeneric": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.299632,
+    0.24537,
+    0.329044
+   ],
+   "tintable": false
+  },
+  "effect.drinksoda": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.299632,
+    0.328704,
+    0.329044
+   ],
+   "tintable": false
+  },
+  "effect.drinktea": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.299632,
+    0.412037,
+    0.329044
+   ],
+   "tintable": false
+  },
+  "effect.emt": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.299632,
+    0.49537,
+    0.329044
+   ],
+   "tintable": false
+  },
+  "effect.encumbered": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.299632,
+    0.578704,
+    0.329044
+   ],
+   "tintable": false
+  },
+  "effect.feral": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.299632,
+    0.662037,
+    0.329044
+   ],
+   "tintable": false
+  },
+  "effect.food": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.299632,
+    0.74537,
+    0.329044
+   ],
+   "tintable": false
+  },
+  "effect.generic": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.299632,
+    0.828704,
+    0.329044
+   ],
+   "tintable": false
+  },
+  "effect.healingfromitem": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.299632,
+    0.912037,
+    0.329044
+   ],
+   "tintable": false
+  },
+  "effect.hunger": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.299632,
+    0.99537,
+    0.329044
+   ],
+   "tintable": false
+  },
+  "effect.lifesaver": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.332721,
+    0.078704,
+    0.362132
+   ],
+   "tintable": false
+  },
+  "effect.mutation": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.332721,
+    0.162037,
+    0.362132
+   ],
+   "tintable": false
+  },
+  "effect.onslaught": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.332721,
+    0.24537,
+    0.362132
+   ],
+   "tintable": false
+  },
+  "effect.pareboot": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.332721,
+    0.328704,
+    0.362132
+   ],
+   "tintable": false
+  },
+  "effect.perk": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.332721,
+    0.412037,
+    0.362132
+   ],
+   "tintable": false
+  },
+  "effect.radiation": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.332721,
+    0.49537,
+    0.362132
+   ],
+   "tintable": false
+  },
+  "effect.rage": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.332721,
+    0.578704,
+    0.362132
+   ],
+   "tintable": false
+  },
+  "effect.scoutscourage": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.332721,
+    0.662037,
+    0.362132
+   ],
+   "tintable": false
+  },
+  "effect.sleep": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.332721,
+    0.74537,
+    0.362132
+   ],
+   "tintable": false
+  },
+  "effect.stealthboy": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.332721,
+    0.828704,
+    0.362132
+   ],
+   "tintable": false
+  },
+  "effect.stimpak": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.332721,
+    0.912037,
+    0.362132
+   ],
+   "tintable": false
+  },
+  "effect.thirst": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.332721,
+    0.99537,
+    0.362132
+   ],
+   "tintable": false
+  },
+  "effect.trackingdart": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.365809,
+    0.078704,
+    0.395221
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.activate": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.365809,
+    0.162037,
+    0.395221
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.camera_01": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.365809,
+    0.24537,
+    0.395221
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.camera_19": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.365809,
+    0.328704,
+    0.395221
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.camera_20": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.365809,
+    0.412037,
+    0.395221
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.camera_21": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.365809,
+    0.49537,
+    0.395221
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.camera_22": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.365809,
+    0.578704,
+    0.395221
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.charge": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.365809,
+    0.662037,
+    0.395221
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.command": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.365809,
+    0.74537,
+    0.395221
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.dot": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.365809,
+    0.828704,
+    0.395221
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.scope_01": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.365809,
+    0.912037,
+    0.395221
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.scope_02": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.365809,
+    0.99537,
+    0.395221
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.scope_03": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.398897,
+    0.078704,
+    0.428309
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.scope_04": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.398897,
+    0.162037,
+    0.428309
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.scope_05": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.398897,
+    0.24537,
+    0.428309
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.scope_06": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.398897,
+    0.328704,
+    0.428309
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.scope_07": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.398897,
+    0.412037,
+    0.428309
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.scope_08": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.398897,
+    0.49537,
+    0.428309
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.scope_09": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.398897,
+    0.578704,
+    0.428309
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.scope_10": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.398897,
+    0.662037,
+    0.428309
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.scope_11": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.398897,
+    0.74537,
+    0.428309
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.scope_13": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.398897,
+    0.828704,
+    0.428309
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.scope_14": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.398897,
+    0.912037,
+    0.428309
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.scope_15": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.398897,
+    0.99537,
+    0.428309
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.scope_16": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.431985,
+    0.078704,
+    0.461397
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.scope_17": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.431985,
+    0.162037,
+    0.461397
+   ],
+   "tintable": false
+  },
+  "fo76.crosshair.standard": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.431985,
+    0.24537,
+    0.461397
+   ],
+   "tintable": false
+  },
+  "fo76.tales.bonus.damage": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.795956,
+    0.078704,
+    0.825368
+   ],
+   "tintable": false
+  },
+  "fo76.tales.camp.action.build": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.795956,
+    0.162037,
+    0.825368
+   ],
+   "tintable": false
+  },
+  "fo76.tales.camp.action.lock": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.795956,
+    0.24537,
+    0.825368
+   ],
+   "tintable": false
+  },
+  "fo76.tales.camp.action.move": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.795956,
+    0.328704,
+    0.825368
+   ],
+   "tintable": false
+  },
+  "fo76.tales.camp.action.scrap": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.795956,
+    0.412037,
+    0.825368
+   ],
+   "tintable": false
+  },
+  "fo76.tales.camp.action.store": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.795956,
+    0.49537,
+    0.825368
+   ],
+   "tintable": false
+  },
+  "fo76.tales.camp.budget": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.795956,
+    0.578704,
+    0.825368
+   ],
+   "tintable": false
+  },
+  "fo76.tales.camp.category.doors": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.795956,
+    0.662037,
+    0.825368
+   ],
+   "tintable": false
+  },
+  "fo76.tales.camp.category.floors": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.795956,
+    0.74537,
+    0.825368
+   ],
+   "tintable": false
+  },
+  "fo76.tales.camp.category.misc": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.795956,
+    0.828704,
+    0.825368
+   ],
+   "tintable": false
+  },
+  "fo76.tales.camp.category.roofs": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.795956,
+    0.912037,
+    0.825368
+   ],
+   "tintable": false
+  },
+  "fo76.tales.camp.category.stairs": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.795956,
+    0.99537,
+    0.825368
+   ],
+   "tintable": false
+  },
+  "fo76.tales.camp.category.walls": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.829044,
+    0.078704,
+    0.858456
+   ],
+   "tintable": false
+  },
+  "fo76.tales.casino.derby.lose": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.829044,
+    0.162037,
+    0.858456
+   ],
+   "tintable": false
+  },
+  "fo76.tales.casino.derby.win": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.829044,
+    0.24537,
+    0.858456
+   ],
+   "tintable": false
+  },
+  "fo76.tales.challenge.character": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.829044,
+    0.328704,
+    0.858456
+   ],
+   "tintable": false
+  },
+  "fo76.tales.challenge.daily": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.829044,
+    0.412037,
+    0.858456
+   ],
+   "tintable": false
+  },
+  "fo76.tales.challenge.weekly": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.829044,
+    0.49537,
+    0.858456
+   ],
+   "tintable": false
+  },
+  "fo76.tales.challenge.world": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.829044,
+    0.578704,
+    0.858456
+   ],
+   "tintable": false
+  },
+  "fo76.tales.compass.player": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.829044,
+    0.662037,
+    0.858456
+   ],
+   "tintable": false
+  },
+  "fo76.tales.currency.treasurynote": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.829044,
+    0.74537,
+    0.858456
+   ],
+   "tintable": false
+  },
+  "fo76.tales.hud.ap": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.829044,
+    0.828704,
+    0.858456
+   ],
+   "tintable": false
+  },
+  "fo76.tales.hud.loot": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.829044,
+    0.912037,
+    0.858456
+   ],
+   "tintable": false
+  },
+  "fo76.tales.hud.team.link": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.829044,
+    0.99537,
+    0.858456
+   ],
+   "tintable": false
+  },
+  "fo76.tales.hud.time.moon": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.965074,
+    0.078704,
+    0.994485
+   ],
+   "tintable": false
+  },
+  "fo76.tales.hud.time.sun": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.965074,
+    0.162037,
+    0.994485
+   ],
+   "tintable": false
+  },
+  "fo76.tales.loading.vault.number": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.862132,
+    0.078704,
+    0.891544
+   ],
+   "tintable": false
+  },
+  "fo76.tales.reputation.levelup.crater": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.862132,
+    0.162037,
+    0.891544
+   ],
+   "tintable": false
+  },
+  "fo76.tales.reputation.levelup.foundation": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.862132,
+    0.24537,
+    0.891544
+   ],
+   "tintable": false
+  },
+  "fo76.tales.vo.dodge": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.862132,
+    0.328704,
+    0.891544
+   ],
+   "tintable": false
+  },
+  "hud.bounty": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.431985,
+    0.328704,
+    0.461397
+   ],
+   "tintable": false
+  },
+  "hud.companion": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.431985,
+    0.412037,
+    0.461397
+   ],
+   "tintable": false
+  },
+  "hud.condition": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.431985,
+    0.49537,
+    0.461397
+   ],
+   "tintable": false
+  },
+  "hud.crit.star": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.431985,
+    0.578704,
+    0.461397
+   ],
+   "tintable": false
+  },
+  "hud.disease": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.431985,
+    0.662037,
+    0.461397
+   ],
+   "tintable": false
+  },
+  "hud.enemy.legendary": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.431985,
+    0.74537,
+    0.461397
+   ],
+   "tintable": false
+  },
+  "hud.enemy.skull": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.431985,
+    0.828704,
+    0.461397
+   ],
+   "tintable": false
+  },
+  "hud.enemy.skull.elite": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.431985,
+    0.912037,
+    0.461397
+   ],
+   "tintable": false
+  },
+  "hud.enemy.target": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.431985,
+    0.99537,
+    0.461397
+   ],
+   "tintable": false
+  },
+  "hud.enemy.target.boss": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.465074,
+    0.078704,
+    0.494485
+   ],
+   "tintable": false
+  },
+  "hud.enemy.target.elite": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.465074,
+    0.162037,
+    0.494485
+   ],
+   "tintable": false
+  },
+  "hud.explosive.car": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.465074,
+    0.24537,
+    0.494485
+   ],
+   "tintable": false
+  },
+  "hud.explosive.grenade": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.465074,
+    0.328704,
+    0.494485
+   ],
+   "tintable": false
+  },
+  "hud.explosive.mine": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.465074,
+    0.412037,
+    0.494485
+   ],
+   "tintable": false
+  },
+  "hud.feral": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.465074,
+    0.49537,
+    0.494485
+   ],
+   "tintable": false
+  },
+  "hud.fusioncore": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.465074,
+    0.578704,
+    0.494485
+   ],
+   "tintable": false
+  },
+  "hud.hit.protected": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.465074,
+    0.662037,
+    0.494485
+   ],
+   "tintable": false
+  },
+  "hud.hit.reflected": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.465074,
+    0.74537,
+    0.494485
+   ],
+   "tintable": false
+  },
+  "hud.hunger": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.465074,
+    0.828704,
+    0.494485
+   ],
+   "tintable": false
+  },
+  "hud.levelup": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.465074,
+    0.912037,
+    0.494485
+   ],
+   "tintable": false
+  },
+  "hud.overheat": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.465074,
+    0.99537,
+    0.494485
+   ],
+   "tintable": false
+  },
+  "hud.quest": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.498162,
+    0.078704,
+    0.527574
+   ],
+   "tintable": false
+  },
+  "hud.quest.main": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.498162,
+    0.162037,
+    0.527574
+   ],
+   "tintable": false
+  },
+  "hud.quest.shared": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.498162,
+    0.24537,
+    0.527574
+   ],
+   "tintable": false
+  },
+  "hud.rads": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.498162,
+    0.328704,
+    0.527574
+   ],
+   "tintable": false
+  },
+  "hud.rank": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.498162,
+    0.412037,
+    0.527574
+   ],
+   "tintable": false
+  },
+  "hud.revive": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.498162,
+    0.49537,
+    0.527574
+   ],
+   "tintable": false
+  },
+  "hud.team.arrow": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.498162,
+    0.578704,
+    0.527574
+   ],
+   "tintable": false
+  },
+  "hud.team.dead": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.498162,
+    0.662037,
+    0.527574
+   ],
+   "tintable": false
+  },
+  "hud.team.leader": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.498162,
+    0.74537,
+    0.527574
+   ],
+   "tintable": false
+  },
+  "hud.thirst": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.498162,
+    0.828704,
+    0.527574
+   ],
+   "tintable": false
+  },
+  "hud.voice.channel": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.498162,
+    0.912037,
+    0.527574
+   ],
+   "tintable": false
+  },
+  "hud.voice.mic": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.498162,
+    0.99537,
+    0.527574
+   ],
+   "tintable": false
+  },
+  "hud.voice.muted": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.53125,
+    0.078704,
+    0.560662
+   ],
+   "tintable": false
+  },
+  "hud.voice.speaking": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.53125,
+    0.162037,
+    0.560662
+   ],
+   "tintable": false
+  },
+  "hud.xp": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.53125,
+    0.24537,
+    0.560662
+   ],
+   "tintable": false
+  },
+  "item.equipped": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.53125,
+    0.328704,
+    0.560662
+   ],
+   "tintable": false
+  },
+  "item.favorite": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.53125,
+    0.412037,
+    0.560662
+   ],
+   "tintable": false
+  },
+  "item.junk": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.53125,
+    0.49537,
+    0.560662
+   ],
+   "tintable": false
+  },
+  "item.locked": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.53125,
+    0.578704,
+    0.560662
+   ],
+   "tintable": false
+  },
+  "item.quest": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.53125,
+    0.662037,
+    0.560662
+   ],
+   "tintable": false
+  },
+  "item.setbonus": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.53125,
+    0.74537,
+    0.560662
+   ],
+   "tintable": false
+  },
+  "item.setbonus.active": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.53125,
+    0.828704,
+    0.560662
+   ],
+   "tintable": false
+  },
+  "item.tagged": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.53125,
+    0.912037,
+    0.560662
+   ],
+   "tintable": false
+  },
+  "item.type.ammo": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.53125,
+    0.99537,
+    0.560662
+   ],
+   "tintable": false
+  },
+  "item.type.apparel": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.564338,
+    0.078704,
+    0.59375
+   ],
+   "tintable": false
+  },
+  "item.type.book": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.564338,
+    0.162037,
+    0.59375
+   ],
+   "tintable": false
+  },
+  "item.type.chem": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.564338,
+    0.24537,
+    0.59375
+   ],
+   "tintable": false
+  },
+  "item.type.drink": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.564338,
+    0.328704,
+    0.59375
+   ],
+   "tintable": false
+  },
+  "item.type.food": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.564338,
+    0.412037,
+    0.59375
+   ],
+   "tintable": false
+  },
+  "item.type.heavy": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.564338,
+    0.49537,
+    0.59375
+   ],
+   "tintable": false
+  },
+  "item.type.helmet": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.564338,
+    0.578704,
+    0.59375
+   ],
+   "tintable": false
+  },
+  "item.type.melee": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.564338,
+    0.662037,
+    0.59375
+   ],
+   "tintable": false
+  },
+  "item.type.misc": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.564338,
+    0.74537,
+    0.59375
+   ],
+   "tintable": false
+  },
+  "item.type.pistol": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.564338,
+    0.828704,
+    0.59375
+   ],
+   "tintable": false
+  },
+  "item.type.rifle": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.564338,
+    0.912037,
+    0.59375
+   ],
+   "tintable": false
+  },
+  "item.type.stimpak": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.564338,
+    0.99537,
+    0.59375
+   ],
+   "tintable": false
+  },
+  "item.type.thrown": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.597426,
+    0.078704,
+    0.626838
+   ],
+   "tintable": false
+  },
+  "item.type.unarmed": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.597426,
+    0.162037,
+    0.626838
+   ],
+   "tintable": false
+  },
+  "item.unique": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.928309,
+    0.078704,
+    0.957721
+   ],
+   "tintable": false
+  },
+  "item.weight": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.597426,
+    0.24537,
+    0.626838
+   ],
+   "tintable": false
+  },
+  "legendary.star": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.597426,
+    0.328704,
+    0.626838
+   ],
+   "tintable": false
+  },
+  "legendary.star.empty": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.597426,
+    0.412037,
+    0.626838
+   ],
+   "tintable": false
+  },
+  "loading.survivalguide": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.597426,
+    0.49537,
+    0.626838
+   ],
+   "tintable": false
+  },
+  "loading.vault": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.597426,
+    0.578704,
+    0.626838
+   ],
+   "tintable": false
+  },
+  "mainmenu.character": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.597426,
+    0.662037,
+    0.626838
+   ],
+   "tintable": false
+  },
+  "mainmenu.play": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.597426,
+    0.74537,
+    0.626838
+   ],
+   "tintable": false
+  },
+  "paperdoll.arm.left": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.597426,
+    0.828704,
+    0.626838
+   ],
+   "tintable": false
+  },
+  "paperdoll.arm.right": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.597426,
+    0.912037,
+    0.626838
+   ],
+   "tintable": false
+  },
+  "paperdoll.body": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.597426,
+    0.99537,
+    0.626838
+   ],
+   "tintable": false
+  },
+  "paperdoll.clothes": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.630515,
+    0.078704,
+    0.659926
+   ],
+   "tintable": false
+  },
+  "paperdoll.gasmask": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.630515,
+    0.162037,
+    0.659926
+   ],
+   "tintable": false
+  },
+  "paperdoll.goggles": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.630515,
+    0.24537,
+    0.659926
+   ],
+   "tintable": false
+  },
+  "paperdoll.helmet": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.630515,
+    0.328704,
+    0.659926
+   ],
+   "tintable": false
+  },
+  "paperdoll.leg.left": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.630515,
+    0.412037,
+    0.659926
+   ],
+   "tintable": false
+  },
+  "paperdoll.leg.right": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.630515,
+    0.49537,
+    0.659926
+   ],
+   "tintable": false
+  },
+  "paperdoll.torso": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.630515,
+    0.578704,
+    0.659926
+   ],
+   "tintable": false
+  },
+  "paperdoll.vaultsuit": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.630515,
+    0.662037,
+    0.659926
+   ],
+   "tintable": false
+  },
+  "photo.tab.cinematic": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.630515,
+    0.74537,
+    0.659926
+   ],
+   "tintable": false
+  },
+  "photo.tab.filters": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.630515,
+    0.828704,
+    0.659926
+   ],
+   "tintable": false
+  },
+  "photo.tab.lens": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.630515,
+    0.912037,
+    0.659926
+   ],
+   "tintable": false
+  },
+  "photo.tab.overlay": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.630515,
+    0.99537,
+    0.659926
+   ],
+   "tintable": false
+  },
+  "photo.tab.player": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.663603,
+    0.078704,
+    0.693015
+   ],
+   "tintable": false
+  },
+  "reputation.crater": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.663603,
+    0.162037,
+    0.693015
+   ],
+   "tintable": false
+  },
+  "reputation.crater.ally": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.663603,
+    0.24537,
+    0.693015
+   ],
+   "tintable": false
+  },
+  "reputation.crater.cautious": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.663603,
+    0.328704,
+    0.693015
+   ],
+   "tintable": false
+  },
+  "reputation.crater.cooperative": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.663603,
+    0.412037,
+    0.693015
+   ],
+   "tintable": false
+  },
+  "reputation.crater.friendly": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.663603,
+    0.49537,
+    0.693015
+   ],
+   "tintable": false
+  },
+  "reputation.crater.hostile": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.663603,
+    0.578704,
+    0.693015
+   ],
+   "tintable": false
+  },
+  "reputation.crater.neighborly": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.663603,
+    0.662037,
+    0.693015
+   ],
+   "tintable": false
+  },
+  "reputation.crater.neutral": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.663603,
+    0.74537,
+    0.693015
+   ],
+   "tintable": false
+  },
+  "reputation.foundation": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.663603,
+    0.828704,
+    0.693015
+   ],
+   "tintable": false
+  },
+  "reputation.foundation.ally": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.663603,
+    0.912037,
+    0.693015
+   ],
+   "tintable": false
+  },
+  "reputation.foundation.cautious": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.663603,
+    0.99537,
+    0.693015
+   ],
+   "tintable": false
+  },
+  "reputation.foundation.cooperative": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.696691,
+    0.078704,
+    0.726103
+   ],
+   "tintable": false
+  },
+  "reputation.foundation.friendly": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.696691,
+    0.162037,
+    0.726103
+   ],
+   "tintable": false
+  },
+  "reputation.foundation.hostile": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.696691,
+    0.24537,
+    0.726103
+   ],
+   "tintable": false
+  },
+  "reputation.foundation.neighborly": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.696691,
+    0.328704,
+    0.726103
+   ],
+   "tintable": false
+  },
+  "reputation.foundation.neutral": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.696691,
+    0.412037,
+    0.726103
+   ],
+   "tintable": false
+  },
+  "resist.ballistic": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.696691,
+    0.49537,
+    0.726103
+   ],
+   "tintable": false
+  },
+  "resist.cold": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.696691,
+    0.578704,
+    0.726103
+   ],
+   "tintable": false
+  },
+  "resist.energy": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.696691,
+    0.662037,
+    0.726103
+   ],
+   "tintable": false
+  },
+  "resist.fire": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.696691,
+    0.74537,
+    0.726103
+   ],
+   "tintable": false
+  },
+  "resist.poison": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.696691,
+    0.828704,
+    0.726103
+   ],
+   "tintable": false
+  },
+  "resist.radiation": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.696691,
+    0.912037,
+    0.726103
+   ],
+   "tintable": false
+  },
+  "reward.vaultboy": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.696691,
+    0.99537,
+    0.726103
+   ],
+   "tintable": false
+  },
+  "shop.equipped": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.729779,
+    0.078704,
+    0.759191
+   ],
+   "tintable": false
+  },
+  "stat.ammo": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.729779,
+    0.162037,
+    0.759191
+   ],
+   "tintable": false
+  },
+  "stat.damage": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.729779,
+    0.24537,
+    0.759191
+   ],
+   "tintable": false
+  },
+  "ui.chevron.down": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.729779,
+    0.328704,
+    0.759191
+   ],
+   "tintable": false
+  },
+  "ui.chevron.up": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.729779,
+    0.412037,
+    0.759191
+   ],
+   "tintable": false
+  }
+ },
+ "texture": "fo76.dds",
+ "version": 1,
+ "width": 1728
+}

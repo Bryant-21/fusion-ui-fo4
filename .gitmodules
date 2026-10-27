@@ -1,0 +1,6 @@
+[submodule "lib/commonlibf4"]
+	path = lib/commonlibf4
+	url = https://github.com/Dear-Modding-FO4/commonlibf4.git
+[submodule "extern/fusion-framework-fo4"]
+	path = extern/fusion-framework-fo4
+	url = https://github.com/Bryant-21/fusion-framework-fo4.git

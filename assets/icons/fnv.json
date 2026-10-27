@@ -1,0 +1,1068 @@
+{
+ "cell": 512,
+ "height": 6912,
+ "icons": {
+  "fnv.arrow.decrease": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.00463,
+    0.078704,
+    0.078704
+   ],
+   "tintable": false
+  },
+  "fnv.arrow.down": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.00463,
+    0.162037,
+    0.078704
+   ],
+   "tintable": false
+  },
+  "fnv.arrow.increase": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.00463,
+    0.24537,
+    0.078704
+   ],
+   "tintable": false
+  },
+  "fnv.arrow.left": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.00463,
+    0.328704,
+    0.078704
+   ],
+   "tintable": false
+  },
+  "fnv.arrow.pointer": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.00463,
+    0.412037,
+    0.078704
+   ],
+   "tintable": false
+  },
+  "fnv.arrow.repair_down": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.00463,
+    0.49537,
+    0.078704
+   ],
+   "tintable": false
+  },
+  "fnv.arrow.right": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.00463,
+    0.578704,
+    0.078704
+   ],
+   "tintable": false
+  },
+  "fnv.arrow.up": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.00463,
+    0.662037,
+    0.078704
+   ],
+   "tintable": false
+  },
+  "fnv.body.left_arm": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.00463,
+    0.74537,
+    0.078704
+   ],
+   "tintable": false
+  },
+  "fnv.body.left_leg": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.00463,
+    0.828704,
+    0.078704
+   ],
+   "tintable": false
+  },
+  "fnv.body.right_arm": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.00463,
+    0.912037,
+    0.078704
+   ],
+   "tintable": false
+  },
+  "fnv.body.right_leg": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.00463,
+    0.99537,
+    0.078704
+   ],
+   "tintable": false
+  },
+  "fnv.body.torso": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.087963,
+    0.078704,
+    0.162037
+   ],
+   "tintable": false
+  },
+  "fnv.compass.landmark": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.087963,
+    0.162037,
+    0.162037
+   ],
+   "tintable": false
+  },
+  "fnv.compass.landmark.discovered": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.087963,
+    0.24537,
+    0.162037
+   ],
+   "tintable": false
+  },
+  "fnv.compass.objective": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.087963,
+    0.328704,
+    0.162037
+   ],
+   "tintable": false
+  },
+  "fnv.compass.player": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.087963,
+    0.412037,
+    0.162037
+   ],
+   "tintable": false
+  },
+  "fnv.compass.strip": {
+   "aspect": 16.251968503937007,
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.087963,
+    0.719907,
+    0.106337
+   ],
+   "tintable": false
+  },
+  "fnv.compass.tick": {
+   "mask": true,
+   "shape": [
+    0.729167,
+    0.087963,
+    0.803241,
+    0.162037
+   ],
+   "tintable": false
+  },
+  "fnv.crosshair.filled": {
+   "mask": true,
+   "shape": [
+    0.8125,
+    0.087963,
+    0.886574,
+    0.162037
+   ],
+   "tintable": false
+  },
+  "fnv.crosshair.legacy_filled": {
+   "mask": true,
+   "shape": [
+    0.895833,
+    0.087963,
+    0.969907,
+    0.162037
+   ],
+   "tintable": false
+  },
+  "fnv.crosshair.legacy_outline": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.171296,
+    0.078704,
+    0.24537
+   ],
+   "tintable": false
+  },
+  "fnv.crosshair.legacy_thin": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.171296,
+    0.162037,
+    0.24537
+   ],
+   "tintable": false
+  },
+  "fnv.crosshair.scope_biggame": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.171296,
+    0.24537,
+    0.24537
+   ],
+   "tintable": false
+  },
+  "fnv.crosshair.scope_circle_tech": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.171296,
+    0.328704,
+    0.24537
+   ],
+   "tintable": false
+  },
+  "fnv.crosshair.scope_duplexscope_o": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.171296,
+    0.412037,
+    0.24537
+   ],
+   "tintable": false
+  },
+  "fnv.crosshair.scope_german_o": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.171296,
+    0.49537,
+    0.24537
+   ],
+   "tintable": false
+  },
+  "fnv.crosshair.scope_laser": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.171296,
+    0.578704,
+    0.24537
+   ],
+   "tintable": false
+  },
+  "fnv.crosshair.scope_mildot_o": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.171296,
+    0.662037,
+    0.24537
+   ],
+   "tintable": false
+  },
+  "fnv.crosshair.scope_stock_mesh": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.171296,
+    0.74537,
+    0.24537
+   ],
+   "tintable": false
+  },
+  "fnv.crosshair.scope_varmit_o": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.171296,
+    0.828704,
+    0.24537
+   ],
+   "tintable": false
+  },
+  "fnv.crosshair.standard": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.171296,
+    0.912037,
+    0.24537
+   ],
+   "tintable": false
+  },
+  "fnv.cursor": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.171296,
+    0.99537,
+    0.24537
+   ],
+   "tintable": false
+  },
+  "fnv.hud.armor": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.25463,
+    0.078704,
+    0.328704
+   ],
+   "tintable": false
+  },
+  "fnv.hud.armor.ap": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.25463,
+    0.162037,
+    0.328704
+   ],
+   "tintable": false
+  },
+  "fnv.hud.bracket.ap": {
+   "aspect": 7.497326203208556,
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.25463,
+    0.374132,
+    0.281684
+   ],
+   "tintable": false
+  },
+  "fnv.hud.bracket.cnd": {
+   "aspect": 7.497326203208556,
+   "mask": true,
+   "shape": [
+    0.383391,
+    0.25463,
+    0.586227,
+    0.281684
+   ],
+   "tintable": false
+  },
+  "fnv.hud.bracket.compass": {
+   "aspect": 7.497326203208556,
+   "mask": true,
+   "shape": [
+    0.595486,
+    0.25463,
+    0.798322,
+    0.281684
+   ],
+   "tintable": false
+  },
+  "fnv.hud.bracket.enemy": {
+   "aspect": 8.1,
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.337963,
+    0.215567,
+    0.364005
+   ],
+   "tintable": false
+  },
+  "fnv.hud.bracket.hp": {
+   "aspect": 7.497326203208556,
+   "mask": true,
+   "shape": [
+    0.224826,
+    0.337963,
+    0.427662,
+    0.365017
+   ],
+   "tintable": false
+  },
+  "fnv.hud.condition_meter": {
+   "aspect": 2.729032258064516,
+   "mask": true,
+   "shape": [
+    0.436921,
+    0.337963,
+    0.559317,
+    0.382812
+   ],
+   "tintable": false
+  },
+  "fnv.hud.crosshair": {
+   "mask": true,
+   "shape": [
+    0.568576,
+    0.337963,
+    0.64265,
+    0.412037
+   ],
+   "tintable": false
+  },
+  "fnv.hud.crosshair.filled": {
+   "mask": true,
+   "shape": [
+    0.65191,
+    0.337963,
+    0.725984,
+    0.412037
+   ],
+   "tintable": false
+  },
+  "fnv.hud.explosive": {
+   "mask": true,
+   "shape": [
+    0.735243,
+    0.337963,
+    0.809317,
+    0.412037
+   ],
+   "tintable": false
+  },
+  "fnv.hud.rads": {
+   "mask": true,
+   "shape": [
+    0.818576,
+    0.337963,
+    0.89265,
+    0.412037
+   ],
+   "tintable": false
+  },
+  "fnv.hud.repair_pips": {
+   "aspect": 11.342105263157896,
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.421296,
+    0.254051,
+    0.443287
+   ],
+   "tintable": false
+  },
+  "fnv.hud.reticle": {
+   "mask": true,
+   "shape": [
+    0.26331,
+    0.421296,
+    0.337384,
+    0.49537
+   ],
+   "tintable": false
+  },
+  "fnv.hud.tick": {
+   "aspect": 0.25,
+   "mask": true,
+   "shape": [
+    0.346644,
+    0.421296,
+    0.383681,
+    0.569444
+   ],
+   "tintable": false
+  },
+  "fnv.item.alcohol": {
+   "mask": true,
+   "shape": [
+    0.39294,
+    0.421296,
+    0.467014,
+    0.49537
+   ],
+   "tintable": false
+  },
+  "fnv.item.ammoswap": {
+   "mask": true,
+   "shape": [
+    0.476273,
+    0.421296,
+    0.550347,
+    0.49537
+   ],
+   "tintable": false
+  },
+  "fnv.item.big_gun": {
+   "mask": true,
+   "shape": [
+    0.559606,
+    0.421296,
+    0.633681,
+    0.49537
+   ],
+   "tintable": false
+  },
+  "fnv.item.books": {
+   "mask": true,
+   "shape": [
+    0.64294,
+    0.421296,
+    0.717014,
+    0.49537
+   ],
+   "tintable": false
+  },
+  "fnv.item.chems": {
+   "mask": true,
+   "shape": [
+    0.726273,
+    0.421296,
+    0.800347,
+    0.49537
+   ],
+   "tintable": false
+  },
+  "fnv.item.clothing": {
+   "mask": true,
+   "shape": [
+    0.809606,
+    0.421296,
+    0.883681,
+    0.49537
+   ],
+   "tintable": false
+  },
+  "fnv.item.energy_weapon": {
+   "mask": true,
+   "shape": [
+    0.89294,
+    0.421296,
+    0.967014,
+    0.49537
+   ],
+   "tintable": false
+  },
+  "fnv.item.food": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.578704,
+    0.078704,
+    0.652778
+   ],
+   "tintable": false
+  },
+  "fnv.item.gloves": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.578704,
+    0.162037,
+    0.652778
+   ],
+   "tintable": false
+  },
+  "fnv.item.helmet": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.578704,
+    0.24537,
+    0.652778
+   ],
+   "tintable": false
+  },
+  "fnv.item.melee": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.578704,
+    0.328704,
+    0.652778
+   ],
+   "tintable": false
+  },
+  "fnv.item.mine": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.578704,
+    0.412037,
+    0.652778
+   ],
+   "tintable": false
+  },
+  "fnv.item.pistol": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.578704,
+    0.49537,
+    0.652778
+   ],
+   "tintable": false
+  },
+  "fnv.item.playing_card": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.578704,
+    0.578704,
+    0.652778
+   ],
+   "tintable": false
+  },
+  "fnv.item.repair_kit": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.578704,
+    0.662037,
+    0.652778
+   ],
+   "tintable": false
+  },
+  "fnv.item.small_gun": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.578704,
+    0.74537,
+    0.652778
+   ],
+   "tintable": false
+  },
+  "fnv.item.stealthboy": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.578704,
+    0.828704,
+    0.652778
+   ],
+   "tintable": false
+  },
+  "fnv.item.stimpack": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.578704,
+    0.912037,
+    0.652778
+   ],
+   "tintable": false
+  },
+  "fnv.item.surgery_kit": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.578704,
+    0.99537,
+    0.652778
+   ],
+   "tintable": false
+  },
+  "fnv.item.thrown_weapon": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.662037,
+    0.078704,
+    0.736111
+   ],
+   "tintable": false
+  },
+  "fnv.item.unarmed": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.662037,
+    0.162037,
+    0.736111
+   ],
+   "tintable": false
+  },
+  "fnv.item.water": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.662037,
+    0.24537,
+    0.736111
+   ],
+   "tintable": false
+  },
+  "fnv.loading.roulette_wheel": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.662037,
+    0.328704,
+    0.736111
+   ],
+   "tintable": false
+  },
+  "fnv.map.cave": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.662037,
+    0.412037,
+    0.736111
+   ],
+   "tintable": false
+  },
+  "fnv.map.city": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.662037,
+    0.49537,
+    0.736111
+   ],
+   "tintable": false
+  },
+  "fnv.map.door": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.662037,
+    0.578704,
+    0.736111
+   ],
+   "tintable": false
+  },
+  "fnv.map.encampment": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.662037,
+    0.662037,
+    0.736111
+   ],
+   "tintable": false
+  },
+  "fnv.map.factory": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.662037,
+    0.74537,
+    0.736111
+   ],
+   "tintable": false
+  },
+  "fnv.map.metro": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.662037,
+    0.828704,
+    0.736111
+   ],
+   "tintable": false
+  },
+  "fnv.map.military": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.662037,
+    0.912037,
+    0.736111
+   ],
+   "tintable": false
+  },
+  "fnv.map.monument": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.662037,
+    0.99537,
+    0.736111
+   ],
+   "tintable": false
+  },
+  "fnv.map.natural_landmark": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.74537,
+    0.078704,
+    0.819444
+   ],
+   "tintable": false
+  },
+  "fnv.map.office": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.74537,
+    0.162037,
+    0.819444
+   ],
+   "tintable": false
+  },
+  "fnv.map.ruins_sewer": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.74537,
+    0.24537,
+    0.819444
+   ],
+   "tintable": false
+  },
+  "fnv.map.ruins_town": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.74537,
+    0.328704,
+    0.819444
+   ],
+   "tintable": false
+  },
+  "fnv.map.ruins_urban": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.74537,
+    0.412037,
+    0.819444
+   ],
+   "tintable": false
+  },
+  "fnv.map.settlement": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.74537,
+    0.49537,
+    0.819444
+   ],
+   "tintable": false
+  },
+  "fnv.map.undiscovered": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.74537,
+    0.578704,
+    0.819444
+   ],
+   "tintable": false
+  },
+  "fnv.map.vault": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.74537,
+    0.662037,
+    0.819444
+   ],
+   "tintable": false
+  },
+  "fnv.marker.square": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.74537,
+    0.74537,
+    0.819444
+   ],
+   "tintable": false
+  },
+  "fnv.marker.square.filled": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.74537,
+    0.828704,
+    0.819444
+   ],
+   "tintable": false
+  },
+  "fnv.marker.x": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.74537,
+    0.912037,
+    0.819444
+   ],
+   "tintable": false
+  },
+  "fnv.message.giftbox": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.74537,
+    0.99537,
+    0.819444
+   ],
+   "tintable": false
+  },
+  "fnv.message.padlock": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.828704,
+    0.078704,
+    0.902778
+   ],
+   "tintable": false
+  },
+  "fnv.message.vaultboy.angry": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.828704,
+    0.162037,
+    0.902778
+   ],
+   "tintable": false
+  },
+  "fnv.message.vaultboy.neutral": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.828704,
+    0.24537,
+    0.902778
+   ],
+   "tintable": false
+  },
+  "fnv.message.vaultboy.thinking": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.828704,
+    0.328704,
+    0.902778
+   ],
+   "tintable": false
+  },
+  "fnv.message.vaultboy.very_happy": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.828704,
+    0.412037,
+    0.902778
+   ],
+   "tintable": false
+  },
+  "fnv.paperdoll": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.828704,
+    0.49537,
+    0.902778
+   ],
+   "tintable": false
+  },
+  "fnv.paperdoll.face": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.828704,
+    0.578704,
+    0.902778
+   ],
+   "tintable": false
+  },
+  "fnv.paperdoll.head": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.828704,
+    0.662037,
+    0.902778
+   ],
+   "tintable": false
+  },
+  "fnv.paperdoll.left_arm": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.828704,
+    0.74537,
+    0.902778
+   ],
+   "tintable": false
+  },
+  "fnv.paperdoll.left_leg": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.828704,
+    0.828704,
+    0.902778
+   ],
+   "tintable": false
+  },
+  "fnv.paperdoll.right_arm": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.828704,
+    0.912037,
+    0.902778
+   ],
+   "tintable": false
+  },
+  "fnv.paperdoll.right_leg": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.828704,
+    0.99537,
+    0.902778
+   ],
+   "tintable": false
+  },
+  "fnv.paperdoll.torso": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.912037,
+    0.078704,
+    0.986111
+   ],
+   "tintable": false
+  },
+  "fnv.stats.carry_weight": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.912037,
+    0.162037,
+    0.986111
+   ],
+   "tintable": false
+  }
+ },
+ "texture": "fnv.dds",
+ "version": 1,
+ "width": 6912
+}

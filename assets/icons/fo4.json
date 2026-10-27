@@ -1,0 +1,1589 @@
+{
+ "cell": 128,
+ "height": 2016,
+ "icons": {
+  "fo4.container.arrow_right": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.003968,
+    0.078704,
+    0.06746
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.activate": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.003968,
+    0.162037,
+    0.06746
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.command": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.003968,
+    0.24537,
+    0.06746
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.dot": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.003968,
+    0.328704,
+    0.06746
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_01": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.003968,
+    0.412037,
+    0.06746
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_02": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.003968,
+    0.49537,
+    0.06746
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_03": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.003968,
+    0.578704,
+    0.06746
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_04": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.003968,
+    0.662037,
+    0.06746
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_05": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.003968,
+    0.74537,
+    0.06746
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_06": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.003968,
+    0.828704,
+    0.06746
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_07": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.003968,
+    0.912037,
+    0.06746
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_08": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.003968,
+    0.99537,
+    0.06746
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_09": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.075397,
+    0.078704,
+    0.138889
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_10": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.075397,
+    0.162037,
+    0.138889
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_10_uw": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.075397,
+    0.24537,
+    0.138889
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_11": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.075397,
+    0.328704,
+    0.138889
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_13": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.075397,
+    0.412037,
+    0.138889
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_14": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.075397,
+    0.49537,
+    0.138889
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_15": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.075397,
+    0.578704,
+    0.138889
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_15_uw": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.075397,
+    0.662037,
+    0.138889
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_16": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.075397,
+    0.74537,
+    0.138889
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_17": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.075397,
+    0.828704,
+    0.138889
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_18": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.075397,
+    0.912037,
+    0.138889
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_18_uw": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.075397,
+    0.99537,
+    0.138889
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_19": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.146825,
+    0.078704,
+    0.210317
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_20": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.146825,
+    0.162037,
+    0.210317
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_20_uw": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.146825,
+    0.24537,
+    0.210317
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_21": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.146825,
+    0.328704,
+    0.210317
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.scope_21_uw": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.146825,
+    0.412037,
+    0.210317
+   ],
+   "tintable": false
+  },
+  "fo4.crosshair.standard": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.146825,
+    0.49537,
+    0.210317
+   ],
+   "tintable": false
+  },
+  "fo4.cursor": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.146825,
+    0.578704,
+    0.210317
+   ],
+   "tintable": false
+  },
+  "fo4.cursor.outline": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.146825,
+    0.662037,
+    0.210317
+   ],
+   "tintable": false
+  },
+  "fo4.examine.double_chevron": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.146825,
+    0.74537,
+    0.210317
+   ],
+   "tintable": false
+  },
+  "fo4.examine.lock": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.146825,
+    0.828704,
+    0.210317
+   ],
+   "tintable": false
+  },
+  "fo4.hud.bracket_left": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.146825,
+    0.912037,
+    0.210317
+   ],
+   "tintable": false
+  },
+  "fo4.hud.bracket_right": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.146825,
+    0.99537,
+    0.210317
+   ],
+   "tintable": false
+  },
+  "fo4.hud.car": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.218254,
+    0.078704,
+    0.281746
+   ],
+   "tintable": false
+  },
+  "fo4.hud.check": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.218254,
+    0.162037,
+    0.281746
+   ],
+   "tintable": false
+  },
+  "fo4.hud.chevron_down": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.218254,
+    0.24537,
+    0.281746
+   ],
+   "tintable": false
+  },
+  "fo4.hud.chevron_right": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.218254,
+    0.328704,
+    0.281746
+   ],
+   "tintable": false
+  },
+  "fo4.hud.chevron_up": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.218254,
+    0.412037,
+    0.281746
+   ],
+   "tintable": false
+  },
+  "fo4.hud.flashlight": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.218254,
+    0.49537,
+    0.281746
+   ],
+   "tintable": false
+  },
+  "fo4.hud.health_crosshair": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.218254,
+    0.578704,
+    0.281746
+   ],
+   "tintable": false
+  },
+  "fo4.hud.heart": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.218254,
+    0.662037,
+    0.281746
+   ],
+   "tintable": false
+  },
+  "fo4.hud.marker_down": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.218254,
+    0.74537,
+    0.281746
+   ],
+   "tintable": false
+  },
+  "fo4.hud.plus": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.218254,
+    0.828704,
+    0.281746
+   ],
+   "tintable": false
+  },
+  "fo4.hud.quest": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.218254,
+    0.912037,
+    0.281746
+   ],
+   "tintable": false
+  },
+  "fo4.hud.radio": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.218254,
+    0.99537,
+    0.281746
+   ],
+   "tintable": false
+  },
+  "fo4.hud.rads": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.289683,
+    0.078704,
+    0.353175
+   ],
+   "tintable": false
+  },
+  "fo4.hud.search": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.289683,
+    0.162037,
+    0.353175
+   ],
+   "tintable": false
+  },
+  "fo4.hud.skull": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.289683,
+    0.24537,
+    0.353175
+   ],
+   "tintable": false
+  },
+  "fo4.hud.star": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.289683,
+    0.328704,
+    0.353175
+   ],
+   "tintable": false
+  },
+  "fo4.hud.star_outline": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.289683,
+    0.412037,
+    0.353175
+   ],
+   "tintable": false
+  },
+  "fo4.hud.vats_corners": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.289683,
+    0.49537,
+    0.353175
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.accuracy": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.289683,
+    0.578704,
+    0.353175
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.addiction": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.289683,
+    0.662037,
+    0.353175
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.aid_medkit": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.289683,
+    0.74537,
+    0.353175
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.ammo": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.289683,
+    0.828704,
+    0.353175
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.apparel_armor": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.289683,
+    0.912037,
+    0.353175
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.apparel_clothes": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.289683,
+    0.99537,
+    0.353175
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.apparel_glove": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.361111,
+    0.078704,
+    0.424603
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.apparel_helmet": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.361111,
+    0.162037,
+    0.424603
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.apparel_torso": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.361111,
+    0.24537,
+    0.424603
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.arrow_up": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.361111,
+    0.328704,
+    0.424603
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.book": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.361111,
+    0.412037,
+    0.424603
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.canister": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.361111,
+    0.49537,
+    0.424603
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.canister_valve": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.361111,
+    0.578704,
+    0.424603
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.caps": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.361111,
+    0.662037,
+    0.424603
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.cocktail": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.361111,
+    0.74537,
+    0.424603
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.damage_cryo": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.361111,
+    0.828704,
+    0.424603
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.damage_energy": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.361111,
+    0.912037,
+    0.424603
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.damage_fire": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.361111,
+    0.99537,
+    0.424603
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.damage_poison": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.43254,
+    0.078704,
+    0.496032
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.damage_rad": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.43254,
+    0.162037,
+    0.496032
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.defense": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.43254,
+    0.24537,
+    0.496032
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.double_chevron": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.43254,
+    0.328704,
+    0.496032
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.explosive_case": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.43254,
+    0.412037,
+    0.496032
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.flare": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.43254,
+    0.49537,
+    0.496032
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.flashbang": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.43254,
+    0.578704,
+    0.496032
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.food": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.43254,
+    0.662037,
+    0.496032
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.gas_mask": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.43254,
+    0.74537,
+    0.496032
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.goggles": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.43254,
+    0.828704,
+    0.496032
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.grenade": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.43254,
+    0.912037,
+    0.496032
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.heart": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.43254,
+    0.99537,
+    0.496032
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.helmet_cap": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.503968,
+    0.078704,
+    0.56746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.helmet_hat": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.503968,
+    0.162037,
+    0.56746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.junk_tools": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.503968,
+    0.24537,
+    0.56746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.medkit": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.503968,
+    0.328704,
+    0.56746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.mine": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.503968,
+    0.412037,
+    0.56746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.mine_bell": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.503968,
+    0.49537,
+    0.56746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.mine_cluster": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.503968,
+    0.578704,
+    0.56746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.mine_heavy": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.503968,
+    0.662037,
+    0.56746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.mine_plasma": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.503968,
+    0.74537,
+    0.56746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.navigate": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.503968,
+    0.828704,
+    0.56746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.pill": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.503968,
+    0.912037,
+    0.56746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.plus": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.503968,
+    0.99537,
+    0.56746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.rest": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.575397,
+    0.078704,
+    0.638889
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.search": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.575397,
+    0.162037,
+    0.638889
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.smile": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.575397,
+    0.24537,
+    0.638889
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.soup": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.575397,
+    0.328704,
+    0.638889
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.star": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.575397,
+    0.412037,
+    0.638889
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.syringe": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.575397,
+    0.49537,
+    0.638889
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.time": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.575397,
+    0.578704,
+    0.638889
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.vats_health": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.575397,
+    0.662037,
+    0.638889
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.vault_boy_wave": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.575397,
+    0.74537,
+    0.638889
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.warning": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.575397,
+    0.828704,
+    0.638889
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.water": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.575397,
+    0.912037,
+    0.638889
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_alien_blaster": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.575397,
+    0.99537,
+    0.638889
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_assault_rifle": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.646825,
+    0.078704,
+    0.710317
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_bomb": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.646825,
+    0.162037,
+    0.710317
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_cryolator": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.646825,
+    0.24537,
+    0.710317
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_flare_gun": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.646825,
+    0.328704,
+    0.710317
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_gatling_laser": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.646825,
+    0.412037,
+    0.710317
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_gauss": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.646825,
+    0.49537,
+    0.710317
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_heavy_laser": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.646825,
+    0.578704,
+    0.710317
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_hunting_rifle": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.646825,
+    0.662037,
+    0.710317
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_junk_jet": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.646825,
+    0.74537,
+    0.710317
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_knife": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.646825,
+    0.828704,
+    0.710317
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_laser_musket": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.646825,
+    0.912037,
+    0.710317
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_laser_pistol": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.646825,
+    0.99537,
+    0.710317
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_laser_rifle": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.718254,
+    0.078704,
+    0.781746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_lever_rifle": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.718254,
+    0.162037,
+    0.781746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_melee": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.718254,
+    0.24537,
+    0.781746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_melee_swing": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.718254,
+    0.328704,
+    0.781746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_minigun": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.718254,
+    0.412037,
+    0.781746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_mininuke": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.718254,
+    0.49537,
+    0.781746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_pipe_rifle": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.718254,
+    0.578704,
+    0.781746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_pistol": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.718254,
+    0.662037,
+    0.781746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_plasma_pistol": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.718254,
+    0.74537,
+    0.781746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_plasma_rifle": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.718254,
+    0.828704,
+    0.781746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_revolver": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.718254,
+    0.912037,
+    0.781746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_rifle_long": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.718254,
+    0.99537,
+    0.781746
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_shotgun": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.789683,
+    0.078704,
+    0.853175
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_submachine": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.789683,
+    0.162037,
+    0.853175
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weapon_unarmed": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.789683,
+    0.24537,
+    0.853175
+   ],
+   "tintable": false
+  },
+  "fo4.pipboy.weight": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.789683,
+    0.328704,
+    0.853175
+   ],
+   "tintable": false
+  },
+  "fo4.vats.blocked": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.789683,
+    0.412037,
+    0.853175
+   ],
+   "tintable": false
+  },
+  "fo4.vats.crosshair": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.789683,
+    0.49537,
+    0.853175
+   ],
+   "tintable": false
+  },
+  "fo4.vats.slash": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.789683,
+    0.578704,
+    0.853175
+   ],
+   "tintable": false
+  },
+  "fo4.workshop.arrow_down": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.789683,
+    0.662037,
+    0.853175
+   ],
+   "tintable": false
+  },
+  "fo4.workshop.arrow_up": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.789683,
+    0.74537,
+    0.853175
+   ],
+   "tintable": false
+  },
+  "fo4.workshop.beer": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.789683,
+    0.828704,
+    0.853175
+   ],
+   "tintable": false
+  },
+  "fo4.workshop.bird": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.789683,
+    0.912037,
+    0.853175
+   ],
+   "tintable": false
+  },
+  "fo4.workshop.fishing": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.789683,
+    0.99537,
+    0.853175
+   ],
+   "tintable": false
+  },
+  "fo4.workshop.gear": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.861111,
+    0.078704,
+    0.924603
+   ],
+   "tintable": false
+  },
+  "fo4.workshop.happiness": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.861111,
+    0.162037,
+    0.924603
+   ],
+   "tintable": false
+  },
+  "fo4.workshop.livestock": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.861111,
+    0.24537,
+    0.924603
+   ],
+   "tintable": false
+  },
+  "fo4.workshop.lock": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.861111,
+    0.328704,
+    0.924603
+   ],
+   "tintable": false
+  },
+  "fo4.workshop.nuka_bottle": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.861111,
+    0.412037,
+    0.924603
+   ],
+   "tintable": false
+  },
+  "fo4.workshop.power": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.861111,
+    0.49537,
+    0.924603
+   ],
+   "tintable": false
+  },
+  "fo4.workshop.ram": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.861111,
+    0.578704,
+    0.924603
+   ],
+   "tintable": false
+  },
+  "fo4.workshop.robot": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.861111,
+    0.662037,
+    0.924603
+   ],
+   "tintable": false
+  },
+  "fo4.workshop.shop": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.861111,
+    0.74537,
+    0.924603
+   ],
+   "tintable": false
+  },
+  "fo4.workshop.slot_add": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.861111,
+    0.828704,
+    0.924603
+   ],
+   "tintable": false
+  },
+  "fo4.workshop.slot_mod": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.861111,
+    0.912037,
+    0.924603
+   ],
+   "tintable": false
+  },
+  "fo4.workshop.triangle_right": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.861111,
+    0.99537,
+    0.924603
+   ],
+   "tintable": false
+  },
+  "fo4.workshop.triangle_up": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.93254,
+    0.078704,
+    0.996032
+   ],
+   "tintable": false
+  },
+  "fo4.workshop.wrench": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.93254,
+    0.162037,
+    0.996032
+   ],
+   "tintable": false
+  }
+ },
+ "texture": "fo4.dds",
+ "version": 1,
+ "width": 1728
+}

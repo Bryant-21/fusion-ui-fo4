@@ -1,0 +1,4439 @@
+{
+ "cell": 128,
+ "height": 5952,
+ "icons": {
+  "skyrim.compass.enemy": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.001344,
+    0.078704,
+    0.022849
+   ],
+   "tintable": false
+  },
+  "skyrim.compass.quest": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.001344,
+    0.162037,
+    0.022849
+   ],
+   "tintable": false
+  },
+  "skyrim.compass.quest.back": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.560484,
+    0.078704,
+    0.581989
+   ],
+   "tintable": false
+  },
+  "skyrim.compass.quest_active": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.001344,
+    0.24537,
+    0.022849
+   ],
+   "tintable": false
+  },
+  "skyrim.compass.quest_active.back": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.560484,
+    0.162037,
+    0.581989
+   ],
+   "tintable": false
+  },
+  "skyrim.compass.quest_arrow": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.001344,
+    0.328704,
+    0.022849
+   ],
+   "tintable": false
+  },
+  "skyrim.compass.quest_arrow.back": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.560484,
+    0.24537,
+    0.581989
+   ],
+   "tintable": false
+  },
+  "skyrim.compass.quest_stem": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.001344,
+    0.412037,
+    0.022849
+   ],
+   "tintable": false
+  },
+  "skyrim.compass.quest_stem.back": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.560484,
+    0.328704,
+    0.581989
+   ],
+   "tintable": false
+  },
+  "skyrim.crosshair.favor": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.001344,
+    0.49537,
+    0.022849
+   ],
+   "tintable": false
+  },
+  "skyrim.crosshair.sneak_detected": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.001344,
+    0.578704,
+    0.022849
+   ],
+   "tintable": false
+  },
+  "skyrim.crosshair.sneak_hidden": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.001344,
+    0.662037,
+    0.022849
+   ],
+   "tintable": false
+  },
+  "skyrim.crosshair.standard": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.001344,
+    0.74537,
+    0.022849
+   ],
+   "tintable": false
+  },
+  "skyrim.crosshair.target": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.001344,
+    0.828704,
+    0.022849
+   ],
+   "tintable": false
+  },
+  "skyrim.cursor": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.001344,
+    0.912037,
+    0.022849
+   ],
+   "tintable": false
+  },
+  "skyrim.cursor.outline": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.001344,
+    0.99537,
+    0.022849
+   ],
+   "tintable": false
+  },
+  "skyrim.hud.arrow_down": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.025538,
+    0.078704,
+    0.047043
+   ],
+   "tintable": false
+  },
+  "skyrim.hud.compass_knot": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.533602,
+    0.078704,
+    0.555108
+   ],
+   "tintable": false
+  },
+  "skyrim.hud.name_knot": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.533602,
+    0.24537,
+    0.555108
+   ],
+   "tintable": false
+  },
+  "skyrim.hud.name_knot.back": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.533602,
+    0.328704,
+    0.555108
+   ],
+   "tintable": false
+  },
+  "skyrim.hud.sneak_eye_closed": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.533602,
+    0.412037,
+    0.555108
+   ],
+   "tintable": false
+  },
+  "skyrim.hud.sneak_eye_closed.back": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.533602,
+    0.49537,
+    0.555108
+   ],
+   "tintable": false
+  },
+  "skyrim.hud.sneak_eye_half": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.533602,
+    0.578704,
+    0.555108
+   ],
+   "tintable": false
+  },
+  "skyrim.hud.sneak_eye_half.back": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.533602,
+    0.662037,
+    0.555108
+   ],
+   "tintable": false
+  },
+  "skyrim.hud.sneak_eye_open": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.533602,
+    0.74537,
+    0.555108
+   ],
+   "tintable": false
+  },
+  "skyrim.hud.sneak_eye_open.back": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.533602,
+    0.828704,
+    0.555108
+   ],
+   "tintable": false
+  },
+  "skyrim.hud.snowflake": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.025538,
+    0.162037,
+    0.047043
+   ],
+   "tintable": false
+  },
+  "skyrim.hud.star4": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.025538,
+    0.24537,
+    0.047043
+   ],
+   "tintable": false
+  },
+  "skyrim.hud.stealth_eye": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.025538,
+    0.328704,
+    0.047043
+   ],
+   "tintable": false
+  },
+  "skyrim.lockpick.mark": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.025538,
+    0.412037,
+    0.047043
+   ],
+   "tintable": false
+  },
+  "skyrim.map.anchor": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.025538,
+    0.49537,
+    0.047043
+   ],
+   "tintable": false
+  },
+  "skyrim.map.anchor.back": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.560484,
+    0.412037,
+    0.581989
+   ],
+   "tintable": false
+  },
+  "skyrim.map.antlers": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.025538,
+    0.578704,
+    0.047043
+   ],
+   "tintable": false
+  },
+  "skyrim.map.antlers.back": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.560484,
+    0.49537,
+    0.581989
+   ],
+   "tintable": false
+  },
+  "skyrim.map.arch_door": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.025538,
+    0.662037,
+    0.047043
+   ],
+   "tintable": false
+  },
+  "skyrim.map.arch_door.back": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.560484,
+    0.578704,
+    0.581989
+   ],
+   "tintable": false
+  },
+  "skyrim.map.banner_tower": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.025538,
+    0.74537,
+    0.047043
+   ],
+   "tintable": false
+  },
+  "skyrim.map.banner_tower.back": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.560484,
+    0.662037,
+    0.581989
+   ],
+   "tintable": false
+  },
+  "skyrim.map.bear_paw": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.025538,
+    0.828704,
+    0.047043
+   ],
+   "tintable": false
+  },
+  "skyrim.map.bear_paw.back": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.560484,
+    0.74537,
+    0.581989
+   ],
+   "tintable": false
+  },
+  "skyrim.map.castle": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.025538,
+    0.912037,
+    0.047043
+   ],
+   "tintable": false
+  },
+  "skyrim.map.castle.back": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.560484,
+    0.828704,
+    0.581989
+   ],
+   "tintable": false
+  },
+  "skyrim.map.cave": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.025538,
+    0.99537,
+    0.047043
+   ],
+   "tintable": false
+  },
+  "skyrim.map.cave.back": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.560484,
+    0.912037,
+    0.581989
+   ],
+   "tintable": false
+  },
+  "skyrim.map.cave_maw": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.049731,
+    0.078704,
+    0.071237
+   ],
+   "tintable": false
+  },
+  "skyrim.map.cave_maw.back": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.560484,
+    0.99537,
+    0.581989
+   ],
+   "tintable": false
+  },
+  "skyrim.map.city_spires": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.049731,
+    0.162037,
+    0.071237
+   ],
+   "tintable": false
+  },
+  "skyrim.map.city_spires.back": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.584677,
+    0.078704,
+    0.606183
+   ],
+   "tintable": false
+  },
+  "skyrim.map.coffin": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.049731,
+    0.24537,
+    0.071237
+   ],
+   "tintable": false
+  },
+  "skyrim.map.coffin.back": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.584677,
+    0.162037,
+    0.606183
+   ],
+   "tintable": false
+  },
+  "skyrim.map.dome_camp": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.049731,
+    0.328704,
+    0.071237
+   ],
+   "tintable": false
+  },
+  "skyrim.map.dome_camp.back": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.584677,
+    0.24537,
+    0.606183
+   ],
+   "tintable": false
+  },
+  "skyrim.map.dragon": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.049731,
+    0.412037,
+    0.071237
+   ],
+   "tintable": false
+  },
+  "skyrim.map.dragon.back": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.584677,
+    0.328704,
+    0.606183
+   ],
+   "tintable": false
+  },
+  "skyrim.map.dragonborn": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.049731,
+    0.49537,
+    0.071237
+   ],
+   "tintable": false
+  },
+  "skyrim.map.dragonborn.back": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.584677,
+    0.412037,
+    0.606183
+   ],
+   "tintable": false
+  },
+  "skyrim.map.fir_tree": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.049731,
+    0.578704,
+    0.071237
+   ],
+   "tintable": false
+  },
+  "skyrim.map.fir_tree.back": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.584677,
+    0.49537,
+    0.606183
+   ],
+   "tintable": false
+  },
+  "skyrim.map.forge": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.049731,
+    0.662037,
+    0.071237
+   ],
+   "tintable": false
+  },
+  "skyrim.map.forge.back": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.584677,
+    0.578704,
+    0.606183
+   ],
+   "tintable": false
+  },
+  "skyrim.map.helm_hall": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.049731,
+    0.74537,
+    0.071237
+   ],
+   "tintable": false
+  },
+  "skyrim.map.helm_hall.back": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.584677,
+    0.662037,
+    0.606183
+   ],
+   "tintable": false
+  },
+  "skyrim.map.hide_tent": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.049731,
+    0.828704,
+    0.071237
+   ],
+   "tintable": false
+  },
+  "skyrim.map.hide_tent.back": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.584677,
+    0.74537,
+    0.606183
+   ],
+   "tintable": false
+  },
+  "skyrim.map.hold_bear": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.049731,
+    0.912037,
+    0.071237
+   ],
+   "tintable": false
+  },
+  "skyrim.map.hold_bear.back": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.584677,
+    0.828704,
+    0.606183
+   ],
+   "tintable": false
+  },
+  "skyrim.map.hold_crown": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.049731,
+    0.99537,
+    0.071237
+   ],
+   "tintable": false
+  },
+  "skyrim.map.hold_crown.back": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.584677,
+    0.912037,
+    0.606183
+   ],
+   "tintable": false
+  },
+  "skyrim.map.hold_horse": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.073925,
+    0.078704,
+    0.09543
+   ],
+   "tintable": false
+  },
+  "skyrim.map.hold_horse.back": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.584677,
+    0.99537,
+    0.606183
+   ],
+   "tintable": false
+  },
+  "skyrim.map.hold_ram": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.073925,
+    0.162037,
+    0.09543
+   ],
+   "tintable": false
+  },
+  "skyrim.map.hold_ram.back": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.608871,
+    0.078704,
+    0.630376
+   ],
+   "tintable": false
+  },
+  "skyrim.map.hold_wolf": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.073925,
+    0.24537,
+    0.09543
+   ],
+   "tintable": false
+  },
+  "skyrim.map.hold_wolf.back": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.608871,
+    0.162037,
+    0.630376
+   ],
+   "tintable": false
+  },
+  "skyrim.map.horseshoe": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.073925,
+    0.328704,
+    0.09543
+   ],
+   "tintable": false
+  },
+  "skyrim.map.horseshoe.back": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.608871,
+    0.24537,
+    0.630376
+   ],
+   "tintable": false
+  },
+  "skyrim.map.house": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.073925,
+    0.412037,
+    0.09543
+   ],
+   "tintable": false
+  },
+  "skyrim.map.house.back": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.608871,
+    0.328704,
+    0.630376
+   ],
+   "tintable": false
+  },
+  "skyrim.map.keep": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.073925,
+    0.49537,
+    0.09543
+   ],
+   "tintable": false
+  },
+  "skyrim.map.keep.back": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.608871,
+    0.412037,
+    0.630376
+   ],
+   "tintable": false
+  },
+  "skyrim.map.keyhole": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.073925,
+    0.578704,
+    0.09543
+   ],
+   "tintable": false
+  },
+  "skyrim.map.keyhole.back": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.608871,
+    0.49537,
+    0.630376
+   ],
+   "tintable": false
+  },
+  "skyrim.map.knot_arrow_a": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.073925,
+    0.662037,
+    0.09543
+   ],
+   "tintable": false
+  },
+  "skyrim.map.knot_arrow_a.back": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.608871,
+    0.578704,
+    0.630376
+   ],
+   "tintable": false
+  },
+  "skyrim.map.knot_arrow_b": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.073925,
+    0.74537,
+    0.09543
+   ],
+   "tintable": false
+  },
+  "skyrim.map.knot_arrow_b.back": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.608871,
+    0.662037,
+    0.630376
+   ],
+   "tintable": false
+  },
+  "skyrim.map.lighthouse": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.073925,
+    0.828704,
+    0.09543
+   ],
+   "tintable": false
+  },
+  "skyrim.map.lighthouse.back": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.608871,
+    0.74537,
+    0.630376
+   ],
+   "tintable": false
+  },
+  "skyrim.map.longship": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.073925,
+    0.912037,
+    0.09543
+   ],
+   "tintable": false
+  },
+  "skyrim.map.longship.back": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.608871,
+    0.828704,
+    0.630376
+   ],
+   "tintable": false
+  },
+  "skyrim.map.mine_cart": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.073925,
+    0.99537,
+    0.09543
+   ],
+   "tintable": false
+  },
+  "skyrim.map.mine_cart.back": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.608871,
+    0.912037,
+    0.630376
+   ],
+   "tintable": false
+  },
+  "skyrim.map.mountain_tent": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.098118,
+    0.078704,
+    0.119624
+   ],
+   "tintable": false
+  },
+  "skyrim.map.mountain_tent.back": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.608871,
+    0.99537,
+    0.630376
+   ],
+   "tintable": false
+  },
+  "skyrim.map.mountains": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.098118,
+    0.162037,
+    0.119624
+   ],
+   "tintable": false
+  },
+  "skyrim.map.mountains.back": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.633065,
+    0.078704,
+    0.65457
+   ],
+   "tintable": false
+  },
+  "skyrim.map.mushroom": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.098118,
+    0.24537,
+    0.119624
+   ],
+   "tintable": false
+  },
+  "skyrim.map.mushroom.back": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.633065,
+    0.162037,
+    0.65457
+   ],
+   "tintable": false
+  },
+  "skyrim.map.palace": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.098118,
+    0.328704,
+    0.119624
+   ],
+   "tintable": false
+  },
+  "skyrim.map.palace.back": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.633065,
+    0.24537,
+    0.65457
+   ],
+   "tintable": false
+  },
+  "skyrim.map.pavilion": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.098118,
+    0.412037,
+    0.119624
+   ],
+   "tintable": false
+  },
+  "skyrim.map.pavilion.back": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.633065,
+    0.328704,
+    0.65457
+   ],
+   "tintable": false
+  },
+  "skyrim.map.pennant_shield": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.098118,
+    0.49537,
+    0.119624
+   ],
+   "tintable": false
+  },
+  "skyrim.map.pennant_shield.back": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.633065,
+    0.412037,
+    0.65457
+   ],
+   "tintable": false
+  },
+  "skyrim.map.pickaxes": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.098118,
+    0.578704,
+    0.119624
+   ],
+   "tintable": false
+  },
+  "skyrim.map.pickaxes.back": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.633065,
+    0.49537,
+    0.65457
+   ],
+   "tintable": false
+  },
+  "skyrim.map.rock_pillar": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.098118,
+    0.662037,
+    0.119624
+   ],
+   "tintable": false
+  },
+  "skyrim.map.rock_pillar.back": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.633065,
+    0.578704,
+    0.65457
+   ],
+   "tintable": false
+  },
+  "skyrim.map.rune_shield": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.098118,
+    0.74537,
+    0.119624
+   ],
+   "tintable": false
+  },
+  "skyrim.map.rune_shield.back": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.633065,
+    0.662037,
+    0.65457
+   ],
+   "tintable": false
+  },
+  "skyrim.map.shack": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.098118,
+    0.828704,
+    0.119624
+   ],
+   "tintable": false
+  },
+  "skyrim.map.shack.back": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.633065,
+    0.74537,
+    0.65457
+   ],
+   "tintable": false
+  },
+  "skyrim.map.stag": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.098118,
+    0.912037,
+    0.119624
+   ],
+   "tintable": false
+  },
+  "skyrim.map.stag.back": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.633065,
+    0.828704,
+    0.65457
+   ],
+   "tintable": false
+  },
+  "skyrim.map.star_shield": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.098118,
+    0.99537,
+    0.119624
+   ],
+   "tintable": false
+  },
+  "skyrim.map.star_shield.back": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.633065,
+    0.912037,
+    0.65457
+   ],
+   "tintable": false
+  },
+  "skyrim.map.stone_hand": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.122312,
+    0.078704,
+    0.143817
+   ],
+   "tintable": false
+  },
+  "skyrim.map.stone_hand.back": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.633065,
+    0.99537,
+    0.65457
+   ],
+   "tintable": false
+  },
+  "skyrim.map.swords_shield": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.122312,
+    0.162037,
+    0.143817
+   ],
+   "tintable": false
+  },
+  "skyrim.map.swords_shield.back": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.657258,
+    0.078704,
+    0.678763
+   ],
+   "tintable": false
+  },
+  "skyrim.map.teepee": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.122312,
+    0.24537,
+    0.143817
+   ],
+   "tintable": false
+  },
+  "skyrim.map.teepee.back": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.657258,
+    0.162037,
+    0.678763
+   ],
+   "tintable": false
+  },
+  "skyrim.map.tower": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.122312,
+    0.328704,
+    0.143817
+   ],
+   "tintable": false
+  },
+  "skyrim.map.tower.back": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.657258,
+    0.24537,
+    0.678763
+   ],
+   "tintable": false
+  },
+  "skyrim.map.tower_house": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.122312,
+    0.412037,
+    0.143817
+   ],
+   "tintable": false
+  },
+  "skyrim.map.tower_house.back": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.657258,
+    0.328704,
+    0.678763
+   ],
+   "tintable": false
+  },
+  "skyrim.map.trident": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.122312,
+    0.49537,
+    0.143817
+   ],
+   "tintable": false
+  },
+  "skyrim.map.trident.back": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.657258,
+    0.412037,
+    0.678763
+   ],
+   "tintable": false
+  },
+  "skyrim.map.triskele": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.122312,
+    0.578704,
+    0.143817
+   ],
+   "tintable": false
+  },
+  "skyrim.map.triskele.back": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.657258,
+    0.49537,
+    0.678763
+   ],
+   "tintable": false
+  },
+  "skyrim.map.tusks": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.122312,
+    0.662037,
+    0.143817
+   ],
+   "tintable": false
+  },
+  "skyrim.map.tusks.back": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.657258,
+    0.578704,
+    0.678763
+   ],
+   "tintable": false
+  },
+  "skyrim.map.waterwheel": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.122312,
+    0.74537,
+    0.143817
+   ],
+   "tintable": false
+  },
+  "skyrim.map.waterwheel.back": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.657258,
+    0.662037,
+    0.678763
+   ],
+   "tintable": false
+  },
+  "skyrim.map.wheat": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.122312,
+    0.828704,
+    0.143817
+   ],
+   "tintable": false
+  },
+  "skyrim.map.wheat.back": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.657258,
+    0.74537,
+    0.678763
+   ],
+   "tintable": false
+  },
+  "skyrim.map.windmill": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.122312,
+    0.912037,
+    0.143817
+   ],
+   "tintable": false
+  },
+  "skyrim.map.windmill.back": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.657258,
+    0.828704,
+    0.678763
+   ],
+   "tintable": false
+  },
+  "skyrim.quest.diamond": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.122312,
+    0.99537,
+    0.143817
+   ],
+   "tintable": false
+  },
+  "skyrim.quest.diamond_filled": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.146505,
+    0.078704,
+    0.168011
+   ],
+   "tintable": false
+  },
+  "skyrim.quest.failed": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.146505,
+    0.162037,
+    0.168011
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.acid": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.194892,
+    0.078704,
+    0.216398
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.acid.back": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.68414,
+    0.078704,
+    0.705645
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.ammo": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.194892,
+    0.162037,
+    0.216398
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.ammo.back": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.68414,
+    0.162037,
+    0.705645
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.area": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.194892,
+    0.24537,
+    0.216398
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.area.back": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.68414,
+    0.24537,
+    0.705645
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.arm_left": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.194892,
+    0.328704,
+    0.216398
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.arm_left.back": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.68414,
+    0.328704,
+    0.705645
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.arm_right": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.194892,
+    0.412037,
+    0.216398
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.arm_right.back": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.68414,
+    0.412037,
+    0.705645
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.arrow": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.194892,
+    0.49537,
+    0.216398
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.arrow.back": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.68414,
+    0.49537,
+    0.705645
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.atom": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.194892,
+    0.578704,
+    0.216398
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.atom.back": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.68414,
+    0.578704,
+    0.705645
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.badge": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.194892,
+    0.662037,
+    0.216398
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.badge.back": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.68414,
+    0.662037,
+    0.705645
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.ban": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.194892,
+    0.74537,
+    0.216398
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.ban.back": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.68414,
+    0.74537,
+    0.705645
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.battery": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.194892,
+    0.828704,
+    0.216398
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.battery.back": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.68414,
+    0.828704,
+    0.705645
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.blast": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.194892,
+    0.912037,
+    0.216398
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.blast.back": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.68414,
+    0.912037,
+    0.705645
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.blueprint": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.194892,
+    0.99537,
+    0.216398
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.blueprint.back": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.68414,
+    0.99537,
+    0.705645
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.body": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.219086,
+    0.078704,
+    0.240591
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.body.back": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.708333,
+    0.078704,
+    0.729839
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.bolt": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.219086,
+    0.162037,
+    0.240591
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.bolt.back": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.708333,
+    0.162037,
+    0.729839
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.book": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.219086,
+    0.24537,
+    0.240591
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.book.back": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.708333,
+    0.24537,
+    0.729839
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.boot": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.219086,
+    0.328704,
+    0.240591
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.boot.back": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.708333,
+    0.328704,
+    0.729839
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.bottle": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.219086,
+    0.412037,
+    0.240591
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.bottle.back": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.708333,
+    0.412037,
+    0.729839
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.bucket": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.219086,
+    0.49537,
+    0.240591
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.bucket.back": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.708333,
+    0.49537,
+    0.729839
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.calendar": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.219086,
+    0.578704,
+    0.240591
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.calendar.back": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.708333,
+    0.578704,
+    0.729839
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.cap": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.219086,
+    0.662037,
+    0.240591
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.cap.back": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.708333,
+    0.662037,
+    0.729839
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.car": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.219086,
+    0.74537,
+    0.240591
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.car.back": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.708333,
+    0.74537,
+    0.729839
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.cards": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.219086,
+    0.828704,
+    0.240591
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.cards.back": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.708333,
+    0.828704,
+    0.729839
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.case": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.219086,
+    0.912037,
+    0.240591
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.case.back": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.708333,
+    0.912037,
+    0.729839
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.charge": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.219086,
+    0.99537,
+    0.240591
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.charge.back": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.708333,
+    0.99537,
+    0.729839
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.check": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.24328,
+    0.078704,
+    0.264785
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.check.back": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.732527,
+    0.078704,
+    0.754032
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.coin": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.24328,
+    0.162037,
+    0.264785
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.coin.back": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.732527,
+    0.162037,
+    0.754032
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.crate": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.24328,
+    0.24537,
+    0.264785
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.crate.back": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.732527,
+    0.24537,
+    0.754032
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.crown": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.24328,
+    0.328704,
+    0.264785
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.crown.back": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.732527,
+    0.328704,
+    0.754032
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.dart": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.24328,
+    0.412037,
+    0.264785
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.dart.back": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.732527,
+    0.412037,
+    0.754032
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.dice": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.24328,
+    0.49537,
+    0.264785
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.dice.back": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.732527,
+    0.49537,
+    0.754032
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.disease": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.24328,
+    0.578704,
+    0.264785
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.disease.back": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.732527,
+    0.578704,
+    0.754032
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.dna": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.24328,
+    0.662037,
+    0.264785
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.dna.back": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.732527,
+    0.662037,
+    0.754032
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.dodge": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.24328,
+    0.74537,
+    0.264785
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.dodge.back": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.732527,
+    0.74537,
+    0.754032
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.door": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.24328,
+    0.828704,
+    0.264785
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.door.back": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.732527,
+    0.828704,
+    0.754032
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.dots": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.24328,
+    0.912037,
+    0.264785
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.dots.back": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.732527,
+    0.912037,
+    0.754032
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.downed": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.24328,
+    0.99537,
+    0.264785
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.downed.back": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.732527,
+    0.99537,
+    0.754032
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.face_ally": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.267473,
+    0.078704,
+    0.288978
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.face_ally.back": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.75672,
+    0.078704,
+    0.778226
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.face_cautious": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.267473,
+    0.162037,
+    0.288978
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.face_cautious.back": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.75672,
+    0.162037,
+    0.778226
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.face_cooperative": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.267473,
+    0.24537,
+    0.288978
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.face_cooperative.back": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.75672,
+    0.24537,
+    0.778226
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.face_friendly": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.267473,
+    0.328704,
+    0.288978
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.face_friendly.back": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.75672,
+    0.328704,
+    0.778226
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.face_hostile": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.267473,
+    0.412037,
+    0.288978
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.face_hostile.back": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.75672,
+    0.412037,
+    0.778226
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.face_neighborly": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.267473,
+    0.49537,
+    0.288978
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.face_neighborly.back": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.75672,
+    0.49537,
+    0.778226
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.face_neutral": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.267473,
+    0.578704,
+    0.288978
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.face_neutral.back": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.75672,
+    0.578704,
+    0.778226
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.film": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.267473,
+    0.662037,
+    0.288978
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.film.back": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.75672,
+    0.662037,
+    0.778226
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.filters": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.267473,
+    0.74537,
+    0.288978
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.filters.back": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.75672,
+    0.74537,
+    0.778226
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.fist": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.267473,
+    0.828704,
+    0.288978
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.fist.back": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.75672,
+    0.828704,
+    0.778226
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.flame": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.267473,
+    0.912037,
+    0.288978
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.flame.back": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.75672,
+    0.912037,
+    0.778226
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.floor": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.267473,
+    0.99537,
+    0.288978
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.floor.back": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.75672,
+    0.99537,
+    0.778226
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.food": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.291667,
+    0.078704,
+    0.313172
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.food.back": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.780914,
+    0.078704,
+    0.802419
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.four": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.291667,
+    0.162037,
+    0.313172
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.four.back": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.780914,
+    0.162037,
+    0.802419
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.frame": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.291667,
+    0.24537,
+    0.313172
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.frame.back": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.780914,
+    0.24537,
+    0.802419
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.gasmask": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.291667,
+    0.328704,
+    0.313172
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.gasmask.back": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.780914,
+    0.328704,
+    0.802419
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.gauge": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.291667,
+    0.412037,
+    0.313172
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.gauge.back": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.780914,
+    0.412037,
+    0.802419
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.gear": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.291667,
+    0.49537,
+    0.313172
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.gear.back": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.780914,
+    0.49537,
+    0.802419
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.gears": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.291667,
+    0.578704,
+    0.313172
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.gears.back": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.780914,
+    0.578704,
+    0.802419
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.glass": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.291667,
+    0.662037,
+    0.313172
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.glass.back": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.780914,
+    0.662037,
+    0.802419
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.goggles": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.291667,
+    0.74537,
+    0.313172
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.goggles.back": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.780914,
+    0.74537,
+    0.802419
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.gold": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.291667,
+    0.828704,
+    0.313172
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.gold.back": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.780914,
+    0.828704,
+    0.802419
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.grenade": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.291667,
+    0.912037,
+    0.313172
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.grenade.back": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.780914,
+    0.912037,
+    0.802419
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.hammer": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.291667,
+    0.99537,
+    0.313172
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.hammer.back": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.780914,
+    0.99537,
+    0.802419
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.hammer_up": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.31586,
+    0.078704,
+    0.337366
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.hammer_up.back": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.805108,
+    0.078704,
+    0.826613
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.heart": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.31586,
+    0.162037,
+    0.337366
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.heart.back": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.805108,
+    0.162037,
+    0.826613
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.helmet": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.31586,
+    0.24537,
+    0.337366
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.helmet.back": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.805108,
+    0.24537,
+    0.826613
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.history": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.31586,
+    0.328704,
+    0.337366
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.history.back": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.805108,
+    0.328704,
+    0.826613
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.horse": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.31586,
+    0.412037,
+    0.337366
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.horse.back": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.805108,
+    0.412037,
+    0.826613
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.house": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.31586,
+    0.49537,
+    0.337366
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.house.back": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.805108,
+    0.49537,
+    0.826613
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.ingot": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.31586,
+    0.578704,
+    0.337366
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.ingot.back": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.805108,
+    0.578704,
+    0.826613
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.lamp": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.31586,
+    0.662037,
+    0.337366
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.lamp.back": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.805108,
+    0.662037,
+    0.826613
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.layers": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.31586,
+    0.74537,
+    0.337366
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.layers.back": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.805108,
+    0.74537,
+    0.826613
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.leaf": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.31586,
+    0.828704,
+    0.337366
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.leaf.back": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.805108,
+    0.828704,
+    0.826613
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.leg_left": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.31586,
+    0.912037,
+    0.337366
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.leg_left.back": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.805108,
+    0.912037,
+    0.826613
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.leg_right": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.31586,
+    0.99537,
+    0.337366
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.leg_right.back": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.805108,
+    0.99537,
+    0.826613
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.lens": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.340054,
+    0.078704,
+    0.361559
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.lens.back": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.829301,
+    0.078704,
+    0.850806
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.levelup": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.340054,
+    0.162037,
+    0.361559
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.levelup.back": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.829301,
+    0.162037,
+    0.850806
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.lifesaver": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.340054,
+    0.24537,
+    0.361559
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.lifesaver.back": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.829301,
+    0.24537,
+    0.850806
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.link": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.340054,
+    0.328704,
+    0.361559
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.link.back": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.829301,
+    0.328704,
+    0.850806
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.loot": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.340054,
+    0.412037,
+    0.361559
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.loot.back": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.829301,
+    0.412037,
+    0.850806
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.lose": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.340054,
+    0.49537,
+    0.361559
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.lose.back": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.829301,
+    0.49537,
+    0.850806
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.mic": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.340054,
+    0.578704,
+    0.361559
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.mic.back": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.829301,
+    0.578704,
+    0.850806
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.mine": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.340054,
+    0.662037,
+    0.361559
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.mine.back": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.829301,
+    0.662037,
+    0.850806
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.minus": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.340054,
+    0.74537,
+    0.361559
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.minus.back": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.829301,
+    0.74537,
+    0.850806
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.moon": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.657258,
+    0.912037,
+    0.678763
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.moon.back": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.829301,
+    0.828704,
+    0.850806
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.move": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.340054,
+    0.828704,
+    0.361559
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.move.back": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.829301,
+    0.912037,
+    0.850806
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.muted": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.340054,
+    0.912037,
+    0.361559
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.muted.back": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.829301,
+    0.99537,
+    0.850806
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.note": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.340054,
+    0.99537,
+    0.361559
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.note.back": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.853495,
+    0.078704,
+    0.875
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.ops": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.364247,
+    0.078704,
+    0.385753
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.ops.back": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.853495,
+    0.162037,
+    0.875
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.pa": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.364247,
+    0.162037,
+    0.385753
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.pa.back": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.853495,
+    0.24537,
+    0.875
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.pack": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.364247,
+    0.24537,
+    0.385753
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.pack.back": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.853495,
+    0.328704,
+    0.875
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.people": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.364247,
+    0.328704,
+    0.385753
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.people.back": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.853495,
+    0.412037,
+    0.875
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.person": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.364247,
+    0.412037,
+    0.385753
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.person.back": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.853495,
+    0.49537,
+    0.875
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.pet": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.364247,
+    0.49537,
+    0.385753
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.pet.back": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.853495,
+    0.578704,
+    0.875
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.picture": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.364247,
+    0.578704,
+    0.385753
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.picture.back": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.853495,
+    0.662037,
+    0.875
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.pill": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.364247,
+    0.662037,
+    0.385753
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.pill.back": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.853495,
+    0.74537,
+    0.875
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.pin": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.364247,
+    0.74537,
+    0.385753
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.pin.back": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.853495,
+    0.828704,
+    0.875
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.pistol": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.364247,
+    0.828704,
+    0.385753
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.pistol.back": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.853495,
+    0.912037,
+    0.875
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.play": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.364247,
+    0.912037,
+    0.385753
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.play.back": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.853495,
+    0.99537,
+    0.875
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.plus": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.364247,
+    0.99537,
+    0.385753
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.plus.back": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.877688,
+    0.078704,
+    0.899194
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.quest": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.388441,
+    0.078704,
+    0.409946
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.quest.back": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.877688,
+    0.162037,
+    0.899194
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.radiation": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.388441,
+    0.162037,
+    0.409946
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.radiation.back": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.877688,
+    0.24537,
+    0.899194
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.rank1": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.388441,
+    0.24537,
+    0.409946
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.rank1.back": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.877688,
+    0.328704,
+    0.899194
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.rank2": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.388441,
+    0.328704,
+    0.409946
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.rank2.back": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.877688,
+    0.412037,
+    0.899194
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.rank3": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.388441,
+    0.412037,
+    0.409946
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.rank3.back": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.877688,
+    0.49537,
+    0.899194
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.reflect": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.388441,
+    0.49537,
+    0.409946
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.reflect.back": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.877688,
+    0.578704,
+    0.899194
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.replace": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.388441,
+    0.578704,
+    0.409946
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.replace.back": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.877688,
+    0.662037,
+    0.899194
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.revive": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.388441,
+    0.662037,
+    0.409946
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.revive.back": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.877688,
+    0.74537,
+    0.899194
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.rifle": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.388441,
+    0.74537,
+    0.409946
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.rifle.back": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.877688,
+    0.828704,
+    0.899194
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.rocket": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.388441,
+    0.828704,
+    0.409946
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.rocket.back": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.877688,
+    0.912037,
+    0.899194
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.roller": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.388441,
+    0.912037,
+    0.409946
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.roller.back": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.877688,
+    0.99537,
+    0.899194
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.roof": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.388441,
+    0.99537,
+    0.409946
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.roof.back": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.901882,
+    0.078704,
+    0.923387
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.roulette": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.412634,
+    0.078704,
+    0.43414
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.roulette.back": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.901882,
+    0.162037,
+    0.923387
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.search": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.412634,
+    0.162037,
+    0.43414
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.search.back": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.901882,
+    0.24537,
+    0.923387
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.set": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.412634,
+    0.24537,
+    0.43414
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.set.back": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.901882,
+    0.328704,
+    0.923387
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.set_active": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.412634,
+    0.328704,
+    0.43414
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.set_active.back": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.901882,
+    0.412037,
+    0.923387
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.shield": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.412634,
+    0.412037,
+    0.43414
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.shield.back": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.901882,
+    0.49537,
+    0.923387
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.shirt": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.412634,
+    0.49537,
+    0.43414
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.shirt.back": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.901882,
+    0.578704,
+    0.923387
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.skull": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.412634,
+    0.578704,
+    0.43414
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.skull.back": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.901882,
+    0.662037,
+    0.923387
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.skull_elite": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.412634,
+    0.662037,
+    0.43414
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.skull_elite.back": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.901882,
+    0.74537,
+    0.923387
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.skull_up": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.412634,
+    0.74537,
+    0.43414
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.skull_up.back": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.901882,
+    0.828704,
+    0.923387
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.sleep": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.412634,
+    0.828704,
+    0.43414
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.sleep.back": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.901882,
+    0.912037,
+    0.923387
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.slots3": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.412634,
+    0.912037,
+    0.43414
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.slots3.back": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.901882,
+    0.99537,
+    0.923387
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.slots5": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.412634,
+    0.99537,
+    0.43414
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.slots5.back": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.926075,
+    0.078704,
+    0.947581
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.sofa": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.436828,
+    0.078704,
+    0.458333
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.sofa.back": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.926075,
+    0.162037,
+    0.947581
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.speaker": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.436828,
+    0.162037,
+    0.458333
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.speaker.back": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.926075,
+    0.24537,
+    0.947581
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.stairs": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.436828,
+    0.24537,
+    0.458333
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.stairs.back": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.926075,
+    0.328704,
+    0.947581
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.stamp": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.436828,
+    0.328704,
+    0.458333
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.stamp.back": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.926075,
+    0.412037,
+    0.947581
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.star": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.436828,
+    0.412037,
+    0.458333
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.star.back": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.926075,
+    0.49537,
+    0.947581
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.star_empty": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.436828,
+    0.49537,
+    0.458333
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.star_empty.back": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.926075,
+    0.578704,
+    0.947581
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.stealth": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.436828,
+    0.578704,
+    0.458333
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.stealth.back": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.926075,
+    0.662037,
+    0.947581
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.sun": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.657258,
+    0.99537,
+    0.678763
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.sun.back": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.926075,
+    0.74537,
+    0.947581
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.sword": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.436828,
+    0.662037,
+    0.458333
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.sword.back": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.926075,
+    0.828704,
+    0.947581
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.syringe": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.436828,
+    0.74537,
+    0.458333
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.syringe.back": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.926075,
+    0.912037,
+    0.947581
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.tadpole": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.436828,
+    0.828704,
+    0.458333
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.tadpole.back": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.926075,
+    0.99537,
+    0.947581
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.target": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.436828,
+    0.912037,
+    0.458333
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.target.back": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.950269,
+    0.078704,
+    0.971774
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.target_boss": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.436828,
+    0.99537,
+    0.458333
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.target_boss.back": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.950269,
+    0.162037,
+    0.971774
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.target_elite": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.461022,
+    0.078704,
+    0.482527
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.target_elite.back": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.950269,
+    0.24537,
+    0.971774
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.tea": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.461022,
+    0.162037,
+    0.482527
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.tea.back": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.950269,
+    0.328704,
+    0.971774
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.terminal": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.461022,
+    0.24537,
+    0.482527
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.terminal.back": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.950269,
+    0.412037,
+    0.971774
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.ticket": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.461022,
+    0.328704,
+    0.482527
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.ticket.back": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.950269,
+    0.49537,
+    0.971774
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.torso": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.461022,
+    0.412037,
+    0.482527
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.torso.back": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.950269,
+    0.578704,
+    0.971774
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.trash": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.461022,
+    0.49537,
+    0.482527
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.trash.back": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.950269,
+    0.662037,
+    0.971774
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.vaultsuit": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.461022,
+    0.578704,
+    0.482527
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.vaultsuit.back": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.950269,
+    0.74537,
+    0.971774
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.wall": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.461022,
+    0.662037,
+    0.482527
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.wall.back": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.950269,
+    0.828704,
+    0.971774
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.water": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.461022,
+    0.74537,
+    0.482527
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.water.back": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.950269,
+    0.912037,
+    0.971774
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.week": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.461022,
+    0.828704,
+    0.482527
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.week.back": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.950269,
+    0.99537,
+    0.971774
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.weight": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.461022,
+    0.912037,
+    0.482527
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.weight.back": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.974462,
+    0.078704,
+    0.995968
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.world": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.461022,
+    0.99537,
+    0.482527
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.world.back": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.974462,
+    0.162037,
+    0.995968
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.wrench": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.485215,
+    0.078704,
+    0.50672
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.wrench.back": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.974462,
+    0.24537,
+    0.995968
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.xp": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.485215,
+    0.162037,
+    0.50672
+   ],
+   "tintable": false
+  },
+  "skyrim.tales.xp.back": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.974462,
+    0.328704,
+    0.995968
+   ],
+   "tintable": false
+  },
+  "skyrim.tween.star4": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.146505,
+    0.24537,
+    0.168011
+   ],
+   "tintable": false
+  },
+  "skyrim.ui.arrow_down": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.146505,
+    0.328704,
+    0.168011
+   ],
+   "tintable": false
+  },
+  "skyrim.ui.arrow_up": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.146505,
+    0.412037,
+    0.168011
+   ],
+   "tintable": false
+  },
+  "skyrim.ui.arrow_up2": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.146505,
+    0.49537,
+    0.168011
+   ],
+   "tintable": false
+  },
+  "skyrim.ui.hex_select": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.146505,
+    0.578704,
+    0.168011
+   ],
+   "tintable": false
+  },
+  "skyrim.ui.knot": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.146505,
+    0.662037,
+    0.168011
+   ],
+   "tintable": false
+  }
+ },
+ "texture": "skyrim.dds",
+ "version": 1,
+ "width": 1728
+}

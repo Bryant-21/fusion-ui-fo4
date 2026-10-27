@@ -1,0 +1,683 @@
+{
+  "version": 1,
+  "crosshairs": [
+    {
+      "key": "fo4.crosshair.standard",
+      "label": "Standard",
+      "game": "fo4",
+      "default": true
+    },
+    {
+      "key": "fo4.crosshair.dot",
+      "label": "Dot",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.activate",
+      "label": "Activate",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.command",
+      "label": "Command",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.standard",
+      "label": "Standard",
+      "game": "fo76",
+      "default": true
+    },
+    {
+      "key": "fo76.crosshair.dot",
+      "label": "Dot",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.activate",
+      "label": "Activate",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.command",
+      "label": "Command",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "skyrim.crosshair.standard",
+      "label": "No target",
+      "game": "skyrim",
+      "default": true
+    },
+    {
+      "key": "skyrim.crosshair.target",
+      "label": "Target",
+      "game": "skyrim",
+      "default": false
+    },
+    {
+      "key": "skyrim.crosshair.favor",
+      "label": "Command",
+      "game": "skyrim",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.pistol",
+      "label": "Pistol",
+      "game": "starfield",
+      "default": true
+    },
+    {
+      "key": "starfield.crosshair.unarmed",
+      "label": "Unarmed dot",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.interaction",
+      "label": "Interaction",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.tool",
+      "label": "Tool",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.laser",
+      "label": "Laser",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.rifle",
+      "label": "Rifle",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.shotgun",
+      "label": "Shotgun",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.cutter",
+      "label": "Cutter",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.command",
+      "label": "Command",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "fo3.crosshair.standard",
+      "label": "Standard",
+      "game": "fo3",
+      "default": true
+    },
+    {
+      "key": "fo3.crosshair.filled",
+      "label": "Filled",
+      "game": "fo3",
+      "default": false
+    },
+    {
+      "key": "fnv.crosshair.standard",
+      "label": "Standard",
+      "game": "fnv",
+      "default": true
+    },
+    {
+      "key": "fnv.crosshair.filled",
+      "label": "Filled",
+      "game": "fnv",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_01",
+      "label": "Scope: Default",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_02",
+      "label": "Scope: Fine",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_03",
+      "label": "Scope: Duplex",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_04",
+      "label": "Scope: German",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_05",
+      "label": "Scope: Dot",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_06",
+      "label": "Scope: Mil-dot",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_07",
+      "label": "Scope: Circle",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_08",
+      "label": "Scope: Old rangefinder",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_09",
+      "label": "Scope: Modern rangefinder",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_10",
+      "label": "Scope: SVD",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_11",
+      "label": "Scope: Hand painted",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_13",
+      "label": "Scope: M14 night vision",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_14",
+      "label": "Scope: 00",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_15",
+      "label": "Scope: Internal rangefinder",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_16",
+      "label": "Scope: Rangefinder 00",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_17",
+      "label": "Scope: Assault rifle",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_18",
+      "label": "Scope: Variant 18",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_19",
+      "label": "Scope: Variant 19",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_20",
+      "label": "Scope: Variant 20",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_21",
+      "label": "Scope: Variant 21",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.scope_01",
+      "label": "Scope: Default",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.scope_02",
+      "label": "Scope: Fine",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.scope_03",
+      "label": "Scope: Duplex",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.scope_04",
+      "label": "Scope: German",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.scope_05",
+      "label": "Scope: Dot",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.scope_06",
+      "label": "Scope: Mil-dot",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.scope_07",
+      "label": "Scope: Circle",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.scope_08",
+      "label": "Scope: Old rangefinder",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.scope_09",
+      "label": "Scope: Modern rangefinder",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.scope_10",
+      "label": "Scope: SVD",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.scope_11",
+      "label": "Scope: Hand painted",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.scope_13",
+      "label": "Scope: M14 night vision",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.scope_14",
+      "label": "Scope: 00",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.scope_15",
+      "label": "Scope: Internal rangefinder",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.scope_16",
+      "label": "Scope: Rangefinder 00",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.scope_17",
+      "label": "Scope: Assault rifle",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.camera_01",
+      "label": "Camera: Standard",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.camera_19",
+      "label": "Camera: 105 mm",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.camera_20",
+      "label": "Camera: 200 mm",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.camera_21",
+      "label": "Camera: Night vision",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.camera_22",
+      "label": "Camera: Targeting",
+      "game": "fo76",
+      "default": false
+    },
+    {
+      "key": "skyrim.crosshair.sneak_hidden",
+      "label": "Sneak: hidden",
+      "game": "skyrim",
+      "default": false
+    },
+    {
+      "key": "skyrim.crosshair.sneak_detected",
+      "label": "Sneak: detected",
+      "game": "skyrim",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.ship_heading",
+      "label": "Ship: heading",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.ship_lead_unlocked",
+      "label": "Ship: Unlocked",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.ship_lead_locked",
+      "label": "Ship: Locked",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.ship_lead_friendly",
+      "label": "Ship: Friendly",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.ship_lock",
+      "label": "Ship: target lock",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.scope_01",
+      "label": "Scope: Default",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.scope_02",
+      "label": "Scope: Fine",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.scope_03",
+      "label": "Scope: Duplex",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.scope_04",
+      "label": "Scope: German",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.scope_05",
+      "label": "Scope: Dot",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.scope_06",
+      "label": "Scope: Mil-dot",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.scope_07",
+      "label": "Scope: Circle",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.scope_08",
+      "label": "Scope: Old rangefinder",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.scope_09",
+      "label": "Scope: Modern rangefinder",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.scope_10",
+      "label": "Scope: SVD",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.scope_11",
+      "label": "Scope: Hand painted",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.scope_13",
+      "label": "Scope: M14 night vision",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.scope_14",
+      "label": "Scope: 00",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.scope_15",
+      "label": "Scope: Internal rangefinder",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.scope_16",
+      "label": "Scope: Rangefinder 00",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.scope_17",
+      "label": "Scope: Assault rifle",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.scope_circle_2x",
+      "label": "Scope: standard 2x",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.scope_circle_4x",
+      "label": "Scope: standard 4x",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.scope_circle_8x",
+      "label": "Scope: standard 8x",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "starfield.crosshair.scope_circle_40x",
+      "label": "Scope: standard 40x",
+      "game": "starfield",
+      "default": false
+    },
+    {
+      "key": "fo3.crosshair.legacy_outline",
+      "label": "Legacy outline",
+      "game": "fo3",
+      "default": false
+    },
+    {
+      "key": "fo3.crosshair.legacy_filled",
+      "label": "Legacy triangles",
+      "game": "fo3",
+      "default": false
+    },
+    {
+      "key": "fo3.crosshair.legacy_thin",
+      "label": "Legacy thin",
+      "game": "fo3",
+      "default": false
+    },
+    {
+      "key": "fnv.crosshair.legacy_outline",
+      "label": "Legacy outline",
+      "game": "fnv",
+      "default": false
+    },
+    {
+      "key": "fnv.crosshair.legacy_filled",
+      "label": "Legacy triangles",
+      "game": "fnv",
+      "default": false
+    },
+    {
+      "key": "fnv.crosshair.legacy_thin",
+      "label": "Legacy thin",
+      "game": "fnv",
+      "default": false
+    },
+    {
+      "key": "fnv.crosshair.scope_biggame",
+      "label": "Scope: Big game",
+      "game": "fnv",
+      "default": false
+    },
+    {
+      "key": "fnv.crosshair.scope_duplexscope_o",
+      "label": "Scope: Duplex",
+      "game": "fnv",
+      "default": false
+    },
+    {
+      "key": "fnv.crosshair.scope_german_o",
+      "label": "Scope: German",
+      "game": "fnv",
+      "default": false
+    },
+    {
+      "key": "fnv.crosshair.scope_mildot_o",
+      "label": "Scope: Mil-dot",
+      "game": "fnv",
+      "default": false
+    },
+    {
+      "key": "fnv.crosshair.scope_varmit_o",
+      "label": "Scope: Varmint",
+      "game": "fnv",
+      "default": false
+    },
+    {
+      "key": "fnv.crosshair.scope_laser",
+      "label": "Scope: Laser",
+      "game": "fnv",
+      "default": false
+    },
+    {
+      "key": "fnv.crosshair.scope_circle_tech",
+      "label": "Scope: OWB circle tech",
+      "game": "fnv",
+      "default": false
+    },
+    {
+      "key": "fo3.crosshair.scope_stock_mesh",
+      "label": "Scope: stock mesh",
+      "game": "fo3",
+      "default": false
+    },
+    {
+      "key": "fnv.crosshair.scope_stock_mesh",
+      "label": "Scope: stock mesh",
+      "game": "fnv",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_10_uw",
+      "label": "Scope: SVD UW",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_15_uw",
+      "label": "Scope: Internal rangefinder UW",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_18_uw",
+      "label": "Scope: Variant 18 UW",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_20_uw",
+      "label": "Scope: Variant 20 UW",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo4.crosshair.scope_21_uw",
+      "label": "Scope: Variant 21 UW",
+      "game": "fo4",
+      "default": false
+    },
+    {
+      "key": "fo76.crosshair.charge",
+      "label": "Charge (authored)",
+      "game": "fo76",
+      "default": false
+    }
+  ]
+}

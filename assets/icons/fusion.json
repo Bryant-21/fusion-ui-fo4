@@ -1,0 +1,239 @@
+{
+ "cell": 128,
+ "height": 288,
+ "icons": {
+  "bonus.damage": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.027778,
+    0.078704,
+    0.472222
+   ],
+   "tintable": false
+  },
+  "camp.action.build": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.027778,
+    0.162037,
+    0.472222
+   ],
+   "tintable": false
+  },
+  "camp.action.lock": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.027778,
+    0.24537,
+    0.472222
+   ],
+   "tintable": false
+  },
+  "camp.action.move": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.027778,
+    0.328704,
+    0.472222
+   ],
+   "tintable": false
+  },
+  "camp.action.scrap": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.027778,
+    0.412037,
+    0.472222
+   ],
+   "tintable": false
+  },
+  "camp.action.store": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.027778,
+    0.49537,
+    0.472222
+   ],
+   "tintable": false
+  },
+  "camp.budget": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.027778,
+    0.578704,
+    0.472222
+   ],
+   "tintable": false
+  },
+  "camp.category.doors": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.027778,
+    0.662037,
+    0.472222
+   ],
+   "tintable": false
+  },
+  "camp.category.floors": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.027778,
+    0.74537,
+    0.472222
+   ],
+   "tintable": false
+  },
+  "camp.category.misc": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.027778,
+    0.828704,
+    0.472222
+   ],
+   "tintable": false
+  },
+  "camp.category.roofs": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.027778,
+    0.912037,
+    0.472222
+   ],
+   "tintable": false
+  },
+  "camp.category.stairs": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.027778,
+    0.99537,
+    0.472222
+   ],
+   "tintable": false
+  },
+  "camp.category.walls": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.527778,
+    0.078704,
+    0.972222
+   ],
+   "tintable": false
+  },
+  "challenge.character": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.527778,
+    0.162037,
+    0.972222
+   ],
+   "tintable": false
+  },
+  "challenge.daily": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.527778,
+    0.24537,
+    0.972222
+   ],
+   "tintable": false
+  },
+  "challenge.weekly": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.527778,
+    0.328704,
+    0.972222
+   ],
+   "tintable": false
+  },
+  "challenge.world": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.527778,
+    0.412037,
+    0.972222
+   ],
+   "tintable": false
+  },
+  "compass.player": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.527778,
+    0.49537,
+    0.972222
+   ],
+   "tintable": false
+  },
+  "currency.treasurynote": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.527778,
+    0.578704,
+    0.972222
+   ],
+   "tintable": false
+  },
+  "hud.ap": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.527778,
+    0.662037,
+    0.972222
+   ],
+   "tintable": false
+  },
+  "hud.loot": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.527778,
+    0.74537,
+    0.972222
+   ],
+   "tintable": false
+  },
+  "hud.team.link": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.527778,
+    0.828704,
+    0.972222
+   ],
+   "tintable": false
+  },
+  "loading.vault.number": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.527778,
+    0.912037,
+    0.972222
+   ],
+   "tintable": false
+  }
+ },
+ "texture": "fusion.dds",
+ "version": 1,
+ "width": 1728
+}

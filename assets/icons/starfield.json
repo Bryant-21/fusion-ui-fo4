@@ -1,0 +1,3069 @@
+{
+ "cell": 128,
+ "height": 4064,
+ "icons": {
+  "starfield.compass.questdoor": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.001969,
+    0.078704,
+    0.033465
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.command": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.001969,
+    0.162037,
+    0.033465
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.cutter": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.001969,
+    0.24537,
+    0.033465
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.interaction": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.001969,
+    0.328704,
+    0.033465
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.laser": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.001969,
+    0.412037,
+    0.033465
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.pistol": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.001969,
+    0.49537,
+    0.033465
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.rifle": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.001969,
+    0.578704,
+    0.033465
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.scope_01": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.001969,
+    0.662037,
+    0.033465
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.scope_02": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.001969,
+    0.74537,
+    0.033465
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.scope_03": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.001969,
+    0.828704,
+    0.033465
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.scope_04": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.001969,
+    0.912037,
+    0.033465
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.scope_05": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.001969,
+    0.99537,
+    0.033465
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.scope_06": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.037402,
+    0.078704,
+    0.068898
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.scope_07": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.037402,
+    0.162037,
+    0.068898
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.scope_08": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.037402,
+    0.24537,
+    0.068898
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.scope_09": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.037402,
+    0.328704,
+    0.068898
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.scope_10": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.037402,
+    0.412037,
+    0.068898
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.scope_11": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.037402,
+    0.49537,
+    0.068898
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.scope_13": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.037402,
+    0.578704,
+    0.068898
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.scope_14": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.037402,
+    0.662037,
+    0.068898
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.scope_15": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.037402,
+    0.74537,
+    0.068898
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.scope_16": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.037402,
+    0.828704,
+    0.068898
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.scope_17": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.037402,
+    0.912037,
+    0.068898
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.scope_circle_2x": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.037402,
+    0.99537,
+    0.068898
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.scope_circle_40x": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.072835,
+    0.078704,
+    0.104331
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.scope_circle_4x": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.072835,
+    0.162037,
+    0.104331
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.scope_circle_8x": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.072835,
+    0.24537,
+    0.104331
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.ship_heading": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.072835,
+    0.328704,
+    0.104331
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.ship_lead_friendly": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.072835,
+    0.412037,
+    0.104331
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.ship_lead_locked": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.072835,
+    0.49537,
+    0.104331
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.ship_lead_unlocked": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.072835,
+    0.578704,
+    0.104331
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.ship_lock": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.072835,
+    0.662037,
+    0.104331
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.shotgun": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.072835,
+    0.74537,
+    0.104331
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.tool": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.072835,
+    0.828704,
+    0.104331
+   ],
+   "tintable": false
+  },
+  "starfield.crosshair.unarmed": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.072835,
+    0.912037,
+    0.104331
+   ],
+   "tintable": false
+  },
+  "starfield.currency.credits": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.923228,
+    0.078704,
+    0.954724
+   ],
+   "tintable": false
+  },
+  "starfield.cursor": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.072835,
+    0.99537,
+    0.104331
+   ],
+   "tintable": false
+  },
+  "starfield.cursor.outline": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.108268,
+    0.078704,
+    0.139764
+   ],
+   "tintable": false
+  },
+  "starfield.hud.grenade": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.108268,
+    0.162037,
+    0.139764
+   ],
+   "tintable": false
+  },
+  "starfield.hud.mine": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.108268,
+    0.24537,
+    0.139764
+   ],
+   "tintable": false
+  },
+  "starfield.map.asteroids.generic": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.108268,
+    0.328704,
+    0.139764
+   ],
+   "tintable": false
+  },
+  "starfield.map.asteroids.icyasteroids": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.108268,
+    0.412037,
+    0.139764
+   ],
+   "tintable": false
+  },
+  "starfield.map.hazard.acidfog": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.108268,
+    0.49537,
+    0.139764
+   ],
+   "tintable": false
+  },
+  "starfield.map.hazard.boilinghotsprings": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.108268,
+    0.578704,
+    0.139764
+   ],
+   "tintable": false
+  },
+  "starfield.map.hazard.generic": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.108268,
+    0.662037,
+    0.139764
+   ],
+   "tintable": false
+  },
+  "starfield.map.hazard.geysers": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.108268,
+    0.74537,
+    0.139764
+   ],
+   "tintable": false
+  },
+  "starfield.map.hazard.radiationzone": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.108268,
+    0.828704,
+    0.139764
+   ],
+   "tintable": false
+  },
+  "starfield.map.landmark.cave": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.108268,
+    0.912037,
+    0.139764
+   ],
+   "tintable": false
+  },
+  "starfield.map.landmark.crystalgrotto": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.108268,
+    0.99537,
+    0.139764
+   ],
+   "tintable": false
+  },
+  "starfield.map.landmark.fracturedearth": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.143701,
+    0.078704,
+    0.175197
+   ],
+   "tintable": false
+  },
+  "starfield.map.landmark.generic": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.143701,
+    0.162037,
+    0.175197
+   ],
+   "tintable": false
+  },
+  "starfield.map.landmark.mechgraveyard": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.143701,
+    0.24537,
+    0.175197
+   ],
+   "tintable": false
+  },
+  "starfield.map.landmark.mountainpeak": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.143701,
+    0.328704,
+    0.175197
+   ],
+   "tintable": false
+  },
+  "starfield.map.landmark.naturallandmark": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.143701,
+    0.412037,
+    0.175197
+   ],
+   "tintable": false
+  },
+  "starfield.map.lifesigns.animalden": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.143701,
+    0.49537,
+    0.175197
+   ],
+   "tintable": false
+  },
+  "starfield.map.lifesigns.coralcolony": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.143701,
+    0.578704,
+    0.175197
+   ],
+   "tintable": false
+  },
+  "starfield.map.lifesigns.fossiloutcropping": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.143701,
+    0.662037,
+    0.175197
+   ],
+   "tintable": false
+  },
+  "starfield.map.lifesigns.frozenwatersource": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.143701,
+    0.74537,
+    0.175197
+   ],
+   "tintable": false
+  },
+  "starfield.map.lifesigns.generic": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.143701,
+    0.828704,
+    0.175197
+   ],
+   "tintable": false
+  },
+  "starfield.map.marker.cityaidvendor": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.143701,
+    0.912037,
+    0.175197
+   ],
+   "tintable": false
+  },
+  "starfield.map.marker.cityarmorvendor": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.143701,
+    0.99537,
+    0.175197
+   ],
+   "tintable": false
+  },
+  "starfield.map.marker.citycosmeticclinic": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.179134,
+    0.078704,
+    0.21063
+   ],
+   "tintable": false
+  },
+  "starfield.map.marker.cityfood": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.179134,
+    0.162037,
+    0.21063
+   ],
+   "tintable": false
+  },
+  "starfield.map.marker.cityplayerhouse": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.179134,
+    0.24537,
+    0.21063
+   ],
+   "tintable": false
+  },
+  "starfield.map.marker.cityrealtor": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.179134,
+    0.328704,
+    0.21063
+   ],
+   "tintable": false
+  },
+  "starfield.map.marker.cityscaledcitadel": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.179134,
+    0.412037,
+    0.21063
+   ],
+   "tintable": false
+  },
+  "starfield.map.marker.citysurgery": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.179134,
+    0.49537,
+    0.21063
+   ],
+   "tintable": false
+  },
+  "starfield.map.marker.citytrackersalliance": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.179134,
+    0.578704,
+    0.21063
+   ],
+   "tintable": false
+  },
+  "starfield.map.marker.citytransit": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.179134,
+    0.662037,
+    0.21063
+   ],
+   "tintable": false
+  },
+  "starfield.map.marker.cityvendor": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.179134,
+    0.74537,
+    0.21063
+   ],
+   "tintable": false
+  },
+  "starfield.map.marker.cityweaponvendor": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.179134,
+    0.828704,
+    0.21063
+   ],
+   "tintable": false
+  },
+  "starfield.map.marker.citywellentrance": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.179134,
+    0.912037,
+    0.21063
+   ],
+   "tintable": false
+  },
+  "starfield.map.marker.companion": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.179134,
+    0.99537,
+    0.21063
+   ],
+   "tintable": false
+  },
+  "starfield.map.marker.mission": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.214567,
+    0.078704,
+    0.246063
+   ],
+   "tintable": false
+  },
+  "starfield.map.marker.player": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.214567,
+    0.162037,
+    0.246063
+   ],
+   "tintable": false
+  },
+  "starfield.map.marker.plot": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.214567,
+    0.24537,
+    0.246063
+   ],
+   "tintable": false
+  },
+  "starfield.map.marker.shipparked": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.214567,
+    0.328704,
+    0.246063
+   ],
+   "tintable": false
+  },
+  "starfield.map.marker.shipplayer": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.214567,
+    0.412037,
+    0.246063
+   ],
+   "tintable": false
+  },
+  "starfield.map.natural.gasvent": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.214567,
+    0.49537,
+    0.246063
+   ],
+   "tintable": false
+  },
+  "starfield.map.natural.mountain": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.214567,
+    0.578704,
+    0.246063
+   ],
+   "tintable": false
+  },
+  "starfield.map.natural.resource": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.214567,
+    0.662037,
+    0.246063
+   ],
+   "tintable": false
+  },
+  "starfield.map.natural.watersource": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.214567,
+    0.74537,
+    0.246063
+   ],
+   "tintable": false
+  },
+  "starfield.map.ship.derelictship": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.214567,
+    0.828704,
+    0.246063
+   ],
+   "tintable": false
+  },
+  "starfield.map.ship.generic": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.214567,
+    0.912037,
+    0.246063
+   ],
+   "tintable": false
+  },
+  "starfield.map.ship.legendaryship": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.214567,
+    0.99537,
+    0.246063
+   ],
+   "tintable": false
+  },
+  "starfield.map.ship.thevigilance": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.25,
+    0.078704,
+    0.281496
+   ],
+   "tintable": false
+  },
+  "starfield.map.spacelandmark.debrisfield": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.25,
+    0.162037,
+    0.281496
+   ],
+   "tintable": false
+  },
+  "starfield.map.spacelandmark.generic": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.25,
+    0.24537,
+    0.281496
+   ],
+   "tintable": false
+  },
+  "starfield.map.spacelandmark.spacegraveyard": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.25,
+    0.328704,
+    0.281496
+   ],
+   "tintable": false
+  },
+  "starfield.map.stackedpoi": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.25,
+    0.412037,
+    0.281496
+   ],
+   "tintable": false
+  },
+  "starfield.map.station.generic": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.25,
+    0.49537,
+    0.281496
+   ],
+   "tintable": false
+  },
+  "starfield.map.station.settlement": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.25,
+    0.578704,
+    0.281496
+   ],
+   "tintable": false
+  },
+  "starfield.map.station.staryard": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.25,
+    0.662037,
+    0.281496
+   ],
+   "tintable": false
+  },
+  "starfield.map.structure.beacon": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.25,
+    0.74537,
+    0.281496
+   ],
+   "tintable": false
+  },
+  "starfield.map.structure.colony": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.25,
+    0.828704,
+    0.281496
+   ],
+   "tintable": false
+  },
+  "starfield.map.structure.crashedstarship": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.25,
+    0.912037,
+    0.281496
+   ],
+   "tintable": false
+  },
+  "starfield.map.structure.extractor": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.25,
+    0.99537,
+    0.281496
+   ],
+   "tintable": false
+  },
+  "starfield.map.structure.farm": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.285433,
+    0.078704,
+    0.316929
+   ],
+   "tintable": false
+  },
+  "starfield.map.structure.generic": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.285433,
+    0.162037,
+    0.316929
+   ],
+   "tintable": false
+  },
+  "starfield.map.structure.industrial": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.285433,
+    0.24537,
+    0.316929
+   ],
+   "tintable": false
+  },
+  "starfield.map.structure.landing": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.285433,
+    0.328704,
+    0.316929
+   ],
+   "tintable": false
+  },
+  "starfield.map.structure.militarybase": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.285433,
+    0.412037,
+    0.316929
+   ],
+   "tintable": false
+  },
+  "starfield.map.structure.miningbase": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.285433,
+    0.49537,
+    0.316929
+   ],
+   "tintable": false
+  },
+  "starfield.map.structure.nasa": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.285433,
+    0.578704,
+    0.316929
+   ],
+   "tintable": false
+  },
+  "starfield.map.structure.outpost": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.285433,
+    0.662037,
+    0.316929
+   ],
+   "tintable": false
+  },
+  "starfield.map.structure.satellite": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.285433,
+    0.74537,
+    0.316929
+   ],
+   "tintable": false
+  },
+  "starfield.map.structure.sciencelab": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.285433,
+    0.828704,
+    0.316929
+   ],
+   "tintable": false
+  },
+  "starfield.map.structure.starborntemple": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.285433,
+    0.912037,
+    0.316929
+   ],
+   "tintable": false
+  },
+  "starfield.map.structure.starport": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.285433,
+    0.99537,
+    0.316929
+   ],
+   "tintable": false
+  },
+  "starfield.map.structure.unknown": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.320866,
+    0.078704,
+    0.352362
+   ],
+   "tintable": false
+  },
+  "starfield.map.vehicle": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.320866,
+    0.162037,
+    0.352362
+   ],
+   "tintable": false
+  },
+  "starfield.research.equipment": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.320866,
+    0.24537,
+    0.352362
+   ],
+   "tintable": false
+  },
+  "starfield.research.gastronomy": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.320866,
+    0.328704,
+    0.352362
+   ],
+   "tintable": false
+  },
+  "starfield.research.outpostdevelopment": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.320866,
+    0.412037,
+    0.352362
+   ],
+   "tintable": false
+  },
+  "starfield.research.pharmacology": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.320866,
+    0.49537,
+    0.352362
+   ],
+   "tintable": false
+  },
+  "starfield.research.weaponry": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.320866,
+    0.578704,
+    0.352362
+   ],
+   "tintable": false
+  },
+  "starfield.resource.adhesive": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.320866,
+    0.662037,
+    0.352362
+   ],
+   "tintable": false
+  },
+  "starfield.resource.aminoacids": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.320866,
+    0.74537,
+    0.352362
+   ],
+   "tintable": false
+  },
+  "starfield.resource.analgesic": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.320866,
+    0.828704,
+    0.352362
+   ],
+   "tintable": false
+  },
+  "starfield.resource.antimicrobial": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.320866,
+    0.912037,
+    0.352362
+   ],
+   "tintable": false
+  },
+  "starfield.resource.aromatic": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.320866,
+    0.99537,
+    0.352362
+   ],
+   "tintable": false
+  },
+  "starfield.resource.beans": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.356299,
+    0.078704,
+    0.387795
+   ],
+   "tintable": false
+  },
+  "starfield.resource.beer": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.356299,
+    0.162037,
+    0.387795
+   ],
+   "tintable": false
+  },
+  "starfield.resource.biofuel": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.356299,
+    0.24537,
+    0.387795
+   ],
+   "tintable": false
+  },
+  "starfield.resource.bread": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.356299,
+    0.328704,
+    0.387795
+   ],
+   "tintable": false
+  },
+  "starfield.resource.cereal": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.356299,
+    0.412037,
+    0.387795
+   ],
+   "tintable": false
+  },
+  "starfield.resource.cheese": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.356299,
+    0.49537,
+    0.387795
+   ],
+   "tintable": false
+  },
+  "starfield.resource.chocolate": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.356299,
+    0.578704,
+    0.387795
+   ],
+   "tintable": false
+  },
+  "starfield.resource.coffee": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.356299,
+    0.662037,
+    0.387795
+   ],
+   "tintable": false
+  },
+  "starfield.resource.cosmetic": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.356299,
+    0.74537,
+    0.387795
+   ],
+   "tintable": false
+  },
+  "starfield.resource.dairy": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.356299,
+    0.828704,
+    0.387795
+   ],
+   "tintable": false
+  },
+  "starfield.resource.edible": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.356299,
+    0.912037,
+    0.387795
+   ],
+   "tintable": false
+  },
+  "starfield.resource.egg": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.356299,
+    0.99537,
+    0.387795
+   ],
+   "tintable": false
+  },
+  "starfield.resource.fiber": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.391732,
+    0.078704,
+    0.423228
+   ],
+   "tintable": false
+  },
+  "starfield.resource.hallucinogen": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.391732,
+    0.162037,
+    0.423228
+   ],
+   "tintable": false
+  },
+  "starfield.resource.lubricant": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.391732,
+    0.24537,
+    0.423228
+   ],
+   "tintable": false
+  },
+  "starfield.resource.membrane": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.391732,
+    0.328704,
+    0.423228
+   ],
+   "tintable": false
+  },
+  "starfield.resource.monopropellant": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.391732,
+    0.412037,
+    0.423228
+   ],
+   "tintable": false
+  },
+  "starfield.resource.narcotic": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.391732,
+    0.49537,
+    0.423228
+   ],
+   "tintable": false
+  },
+  "starfield.resource.noodles": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.391732,
+    0.578704,
+    0.423228
+   ],
+   "tintable": false
+  },
+  "starfield.resource.ornamental": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.391732,
+    0.662037,
+    0.423228
+   ],
+   "tintable": false
+  },
+  "starfield.resource.pigment": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.391732,
+    0.74537,
+    0.423228
+   ],
+   "tintable": false
+  },
+  "starfield.resource.polymer": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.391732,
+    0.828704,
+    0.423228
+   ],
+   "tintable": false
+  },
+  "starfield.resource.poultry": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.391732,
+    0.912037,
+    0.423228
+   ],
+   "tintable": false
+  },
+  "starfield.resource.redmeat": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.391732,
+    0.99537,
+    0.423228
+   ],
+   "tintable": false
+  },
+  "starfield.resource.seafood": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.427165,
+    0.078704,
+    0.458661
+   ],
+   "tintable": false
+  },
+  "starfield.resource.sealant": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.427165,
+    0.162037,
+    0.458661
+   ],
+   "tintable": false
+  },
+  "starfield.resource.sedative": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.427165,
+    0.24537,
+    0.458661
+   ],
+   "tintable": false
+  },
+  "starfield.resource.soda": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.427165,
+    0.328704,
+    0.458661
+   ],
+   "tintable": false
+  },
+  "starfield.resource.solvent": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.427165,
+    0.412037,
+    0.458661
+   ],
+   "tintable": false
+  },
+  "starfield.resource.spice": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.427165,
+    0.49537,
+    0.458661
+   ],
+   "tintable": false
+  },
+  "starfield.resource.structural": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.427165,
+    0.578704,
+    0.458661
+   ],
+   "tintable": false
+  },
+  "starfield.resource.tea": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.427165,
+    0.662037,
+    0.458661
+   ],
+   "tintable": false
+  },
+  "starfield.resource.tofu": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.427165,
+    0.74537,
+    0.458661
+   ],
+   "tintable": false
+  },
+  "starfield.resource.toxin": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.427165,
+    0.828704,
+    0.458661
+   ],
+   "tintable": false
+  },
+  "starfield.resource.wine": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.427165,
+    0.912037,
+    0.458661
+   ],
+   "tintable": false
+  },
+  "starfield.skill.diplomacy": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.427165,
+    0.99537,
+    0.458661
+   ],
+   "tintable": false
+  },
+  "starfield.skill.instigation": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.462598,
+    0.078704,
+    0.494094
+   ],
+   "tintable": false
+  },
+  "starfield.status.airborne": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.462598,
+    0.162037,
+    0.494094
+   ],
+   "tintable": false
+  },
+  "starfield.status.cardio": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.462598,
+    0.24537,
+    0.494094
+   ],
+   "tintable": false
+  },
+  "starfield.status.corrosive": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.462598,
+    0.328704,
+    0.494094
+   ],
+   "tintable": false
+  },
+  "starfield.status.digestive": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.462598,
+    0.412037,
+    0.494094
+   ],
+   "tintable": false
+  },
+  "starfield.status.misc": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.462598,
+    0.49537,
+    0.494094
+   ],
+   "tintable": false
+  },
+  "starfield.status.muscular": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.462598,
+    0.578704,
+    0.494094
+   ],
+   "tintable": false
+  },
+  "starfield.status.nerve": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.462598,
+    0.662037,
+    0.494094
+   ],
+   "tintable": false
+  },
+  "starfield.status.radiation": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.462598,
+    0.74537,
+    0.494094
+   ],
+   "tintable": false
+  },
+  "starfield.status.thermal": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.462598,
+    0.828704,
+    0.494094
+   ],
+   "tintable": false
+  },
+  "starfield.tales.ammo": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.498031,
+    0.078704,
+    0.529528
+   ],
+   "tintable": false
+  },
+  "starfield.tales.area": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.498031,
+    0.162037,
+    0.529528
+   ],
+   "tintable": false
+  },
+  "starfield.tales.arm_left": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.498031,
+    0.24537,
+    0.529528
+   ],
+   "tintable": false
+  },
+  "starfield.tales.arm_right": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.498031,
+    0.328704,
+    0.529528
+   ],
+   "tintable": false
+  },
+  "starfield.tales.arrow": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.498031,
+    0.412037,
+    0.529528
+   ],
+   "tintable": false
+  },
+  "starfield.tales.atom": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.498031,
+    0.49537,
+    0.529528
+   ],
+   "tintable": false
+  },
+  "starfield.tales.badge": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.498031,
+    0.578704,
+    0.529528
+   ],
+   "tintable": false
+  },
+  "starfield.tales.ban": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.498031,
+    0.662037,
+    0.529528
+   ],
+   "tintable": false
+  },
+  "starfield.tales.battery": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.498031,
+    0.74537,
+    0.529528
+   ],
+   "tintable": false
+  },
+  "starfield.tales.blueprint": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.498031,
+    0.828704,
+    0.529528
+   ],
+   "tintable": false
+  },
+  "starfield.tales.body": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.498031,
+    0.912037,
+    0.529528
+   ],
+   "tintable": false
+  },
+  "starfield.tales.bolt": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.498031,
+    0.99537,
+    0.529528
+   ],
+   "tintable": false
+  },
+  "starfield.tales.book": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.533465,
+    0.078704,
+    0.564961
+   ],
+   "tintable": false
+  },
+  "starfield.tales.boot": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.533465,
+    0.162037,
+    0.564961
+   ],
+   "tintable": false
+  },
+  "starfield.tales.bucket": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.533465,
+    0.24537,
+    0.564961
+   ],
+   "tintable": false
+  },
+  "starfield.tales.calendar": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.533465,
+    0.328704,
+    0.564961
+   ],
+   "tintable": false
+  },
+  "starfield.tales.car": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.533465,
+    0.49537,
+    0.564961
+   ],
+   "tintable": false
+  },
+  "starfield.tales.cards": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.533465,
+    0.578704,
+    0.564961
+   ],
+   "tintable": false
+  },
+  "starfield.tales.case": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.533465,
+    0.662037,
+    0.564961
+   ],
+   "tintable": false
+  },
+  "starfield.tales.charge": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.533465,
+    0.74537,
+    0.564961
+   ],
+   "tintable": false
+  },
+  "starfield.tales.check": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.533465,
+    0.828704,
+    0.564961
+   ],
+   "tintable": false
+  },
+  "starfield.tales.coin": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.533465,
+    0.912037,
+    0.564961
+   ],
+   "tintable": false
+  },
+  "starfield.tales.crate": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.533465,
+    0.99537,
+    0.564961
+   ],
+   "tintable": false
+  },
+  "starfield.tales.crown": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.568898,
+    0.078704,
+    0.600394
+   ],
+   "tintable": false
+  },
+  "starfield.tales.dart": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.568898,
+    0.162037,
+    0.600394
+   ],
+   "tintable": false
+  },
+  "starfield.tales.dice": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.568898,
+    0.24537,
+    0.600394
+   ],
+   "tintable": false
+  },
+  "starfield.tales.disease": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.568898,
+    0.328704,
+    0.600394
+   ],
+   "tintable": false
+  },
+  "starfield.tales.dna": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.568898,
+    0.412037,
+    0.600394
+   ],
+   "tintable": false
+  },
+  "starfield.tales.dodge": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.568898,
+    0.49537,
+    0.600394
+   ],
+   "tintable": false
+  },
+  "starfield.tales.door": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.568898,
+    0.578704,
+    0.600394
+   ],
+   "tintable": false
+  },
+  "starfield.tales.dots": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.568898,
+    0.662037,
+    0.600394
+   ],
+   "tintable": false
+  },
+  "starfield.tales.down": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.568898,
+    0.74537,
+    0.600394
+   ],
+   "tintable": false
+  },
+  "starfield.tales.downed": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.568898,
+    0.828704,
+    0.600394
+   ],
+   "tintable": false
+  },
+  "starfield.tales.face_ally": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.568898,
+    0.912037,
+    0.600394
+   ],
+   "tintable": false
+  },
+  "starfield.tales.face_cautious": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.568898,
+    0.99537,
+    0.600394
+   ],
+   "tintable": false
+  },
+  "starfield.tales.face_cooperative": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.604331,
+    0.078704,
+    0.635827
+   ],
+   "tintable": false
+  },
+  "starfield.tales.face_friendly": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.604331,
+    0.162037,
+    0.635827
+   ],
+   "tintable": false
+  },
+  "starfield.tales.face_hostile": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.604331,
+    0.24537,
+    0.635827
+   ],
+   "tintable": false
+  },
+  "starfield.tales.face_neighborly": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.604331,
+    0.328704,
+    0.635827
+   ],
+   "tintable": false
+  },
+  "starfield.tales.face_neutral": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.604331,
+    0.412037,
+    0.635827
+   ],
+   "tintable": false
+  },
+  "starfield.tales.film": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.604331,
+    0.49537,
+    0.635827
+   ],
+   "tintable": false
+  },
+  "starfield.tales.filters": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.604331,
+    0.578704,
+    0.635827
+   ],
+   "tintable": false
+  },
+  "starfield.tales.fist": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.604331,
+    0.662037,
+    0.635827
+   ],
+   "tintable": false
+  },
+  "starfield.tales.flame": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.604331,
+    0.74537,
+    0.635827
+   ],
+   "tintable": false
+  },
+  "starfield.tales.floor": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.604331,
+    0.828704,
+    0.635827
+   ],
+   "tintable": false
+  },
+  "starfield.tales.four": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.604331,
+    0.912037,
+    0.635827
+   ],
+   "tintable": false
+  },
+  "starfield.tales.frame": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.604331,
+    0.99537,
+    0.635827
+   ],
+   "tintable": false
+  },
+  "starfield.tales.gasmask": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.639764,
+    0.078704,
+    0.67126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.gauge": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.639764,
+    0.162037,
+    0.67126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.gear": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.639764,
+    0.24537,
+    0.67126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.gears": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.639764,
+    0.328704,
+    0.67126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.gem": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.962598,
+    0.078704,
+    0.994094
+   ],
+   "tintable": false
+  },
+  "starfield.tales.goggles": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.639764,
+    0.412037,
+    0.67126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.gold": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.639764,
+    0.49537,
+    0.67126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.hammer": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.639764,
+    0.578704,
+    0.67126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.hammer_up": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.639764,
+    0.662037,
+    0.67126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.heart": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.639764,
+    0.74537,
+    0.67126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.helmet": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.639764,
+    0.828704,
+    0.67126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.history": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.639764,
+    0.912037,
+    0.67126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.horse": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.639764,
+    0.99537,
+    0.67126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.ingot": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.675197,
+    0.078704,
+    0.706693
+   ],
+   "tintable": false
+  },
+  "starfield.tales.lamp": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.675197,
+    0.162037,
+    0.706693
+   ],
+   "tintable": false
+  },
+  "starfield.tales.layers": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.675197,
+    0.24537,
+    0.706693
+   ],
+   "tintable": false
+  },
+  "starfield.tales.leg_left": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.675197,
+    0.328704,
+    0.706693
+   ],
+   "tintable": false
+  },
+  "starfield.tales.leg_right": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.675197,
+    0.412037,
+    0.706693
+   ],
+   "tintable": false
+  },
+  "starfield.tales.lens": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.675197,
+    0.49537,
+    0.706693
+   ],
+   "tintable": false
+  },
+  "starfield.tales.levelup": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.675197,
+    0.578704,
+    0.706693
+   ],
+   "tintable": false
+  },
+  "starfield.tales.lifesaver": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.675197,
+    0.662037,
+    0.706693
+   ],
+   "tintable": false
+  },
+  "starfield.tales.link": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.675197,
+    0.74537,
+    0.706693
+   ],
+   "tintable": false
+  },
+  "starfield.tales.lock": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.675197,
+    0.828704,
+    0.706693
+   ],
+   "tintable": false
+  },
+  "starfield.tales.loot": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.675197,
+    0.912037,
+    0.706693
+   ],
+   "tintable": false
+  },
+  "starfield.tales.lose": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.675197,
+    0.99537,
+    0.706693
+   ],
+   "tintable": false
+  },
+  "starfield.tales.mic": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.71063,
+    0.078704,
+    0.742126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.minus": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.71063,
+    0.162037,
+    0.742126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.moon": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.962598,
+    0.162037,
+    0.994094
+   ],
+   "tintable": false
+  },
+  "starfield.tales.move": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.71063,
+    0.24537,
+    0.742126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.muted": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.71063,
+    0.328704,
+    0.742126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.note": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.71063,
+    0.412037,
+    0.742126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.ops": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.71063,
+    0.49537,
+    0.742126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.pa": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.71063,
+    0.578704,
+    0.742126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.pack": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.71063,
+    0.662037,
+    0.742126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.people": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.71063,
+    0.74537,
+    0.742126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.person": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.71063,
+    0.828704,
+    0.742126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.pet": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.71063,
+    0.912037,
+    0.742126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.picture": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.71063,
+    0.99537,
+    0.742126
+   ],
+   "tintable": false
+  },
+  "starfield.tales.pin": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.746063,
+    0.078704,
+    0.777559
+   ],
+   "tintable": false
+  },
+  "starfield.tales.play": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.746063,
+    0.24537,
+    0.777559
+   ],
+   "tintable": false
+  },
+  "starfield.tales.plus": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.746063,
+    0.328704,
+    0.777559
+   ],
+   "tintable": false
+  },
+  "starfield.tales.quest": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.746063,
+    0.412037,
+    0.777559
+   ],
+   "tintable": false
+  },
+  "starfield.tales.rank1": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.746063,
+    0.49537,
+    0.777559
+   ],
+   "tintable": false
+  },
+  "starfield.tales.rank2": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.746063,
+    0.578704,
+    0.777559
+   ],
+   "tintable": false
+  },
+  "starfield.tales.rank3": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.746063,
+    0.662037,
+    0.777559
+   ],
+   "tintable": false
+  },
+  "starfield.tales.reflect": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.746063,
+    0.74537,
+    0.777559
+   ],
+   "tintable": false
+  },
+  "starfield.tales.replace": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.746063,
+    0.828704,
+    0.777559
+   ],
+   "tintable": false
+  },
+  "starfield.tales.revive": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.746063,
+    0.912037,
+    0.777559
+   ],
+   "tintable": false
+  },
+  "starfield.tales.rocket": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.781496,
+    0.078704,
+    0.812992
+   ],
+   "tintable": false
+  },
+  "starfield.tales.roller": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.781496,
+    0.162037,
+    0.812992
+   ],
+   "tintable": false
+  },
+  "starfield.tales.roof": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.781496,
+    0.24537,
+    0.812992
+   ],
+   "tintable": false
+  },
+  "starfield.tales.roulette": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.781496,
+    0.328704,
+    0.812992
+   ],
+   "tintable": false
+  },
+  "starfield.tales.search": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.781496,
+    0.412037,
+    0.812992
+   ],
+   "tintable": false
+  },
+  "starfield.tales.set": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.781496,
+    0.49537,
+    0.812992
+   ],
+   "tintable": false
+  },
+  "starfield.tales.set_active": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.781496,
+    0.578704,
+    0.812992
+   ],
+   "tintable": false
+  },
+  "starfield.tales.shield": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.781496,
+    0.662037,
+    0.812992
+   ],
+   "tintable": false
+  },
+  "starfield.tales.skull": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.781496,
+    0.74537,
+    0.812992
+   ],
+   "tintable": false
+  },
+  "starfield.tales.skull_elite": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.781496,
+    0.828704,
+    0.812992
+   ],
+   "tintable": false
+  },
+  "starfield.tales.skull_up": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.781496,
+    0.912037,
+    0.812992
+   ],
+   "tintable": false
+  },
+  "starfield.tales.sleep": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.781496,
+    0.99537,
+    0.812992
+   ],
+   "tintable": false
+  },
+  "starfield.tales.slots3": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.816929,
+    0.078704,
+    0.848425
+   ],
+   "tintable": false
+  },
+  "starfield.tales.slots5": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.816929,
+    0.162037,
+    0.848425
+   ],
+   "tintable": false
+  },
+  "starfield.tales.snow": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.816929,
+    0.24537,
+    0.848425
+   ],
+   "tintable": false
+  },
+  "starfield.tales.sofa": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.816929,
+    0.328704,
+    0.848425
+   ],
+   "tintable": false
+  },
+  "starfield.tales.speaker": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.816929,
+    0.412037,
+    0.848425
+   ],
+   "tintable": false
+  },
+  "starfield.tales.stairs": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.816929,
+    0.49537,
+    0.848425
+   ],
+   "tintable": false
+  },
+  "starfield.tales.stamp": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.816929,
+    0.578704,
+    0.848425
+   ],
+   "tintable": false
+  },
+  "starfield.tales.star": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.816929,
+    0.662037,
+    0.848425
+   ],
+   "tintable": false
+  },
+  "starfield.tales.star_empty": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.816929,
+    0.74537,
+    0.848425
+   ],
+   "tintable": false
+  },
+  "starfield.tales.stealth": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.816929,
+    0.828704,
+    0.848425
+   ],
+   "tintable": false
+  },
+  "starfield.tales.sun": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.962598,
+    0.24537,
+    0.994094
+   ],
+   "tintable": false
+  },
+  "starfield.tales.sword": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.816929,
+    0.912037,
+    0.848425
+   ],
+   "tintable": false
+  },
+  "starfield.tales.syringe": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.816929,
+    0.99537,
+    0.848425
+   ],
+   "tintable": false
+  },
+  "starfield.tales.tadpole": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.852362,
+    0.078704,
+    0.883858
+   ],
+   "tintable": false
+  },
+  "starfield.tales.target": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.852362,
+    0.162037,
+    0.883858
+   ],
+   "tintable": false
+  },
+  "starfield.tales.target_boss": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.852362,
+    0.24537,
+    0.883858
+   ],
+   "tintable": false
+  },
+  "starfield.tales.target_elite": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.852362,
+    0.328704,
+    0.883858
+   ],
+   "tintable": false
+  },
+  "starfield.tales.terminal": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.852362,
+    0.412037,
+    0.883858
+   ],
+   "tintable": false
+  },
+  "starfield.tales.ticket": {
+   "mask": true,
+   "shape": [
+    0.421296,
+    0.852362,
+    0.49537,
+    0.883858
+   ],
+   "tintable": false
+  },
+  "starfield.tales.torso": {
+   "mask": true,
+   "shape": [
+    0.50463,
+    0.852362,
+    0.578704,
+    0.883858
+   ],
+   "tintable": false
+  },
+  "starfield.tales.trash": {
+   "mask": true,
+   "shape": [
+    0.587963,
+    0.852362,
+    0.662037,
+    0.883858
+   ],
+   "tintable": false
+  },
+  "starfield.tales.up": {
+   "mask": true,
+   "shape": [
+    0.671296,
+    0.852362,
+    0.74537,
+    0.883858
+   ],
+   "tintable": false
+  },
+  "starfield.tales.vaultsuit": {
+   "mask": true,
+   "shape": [
+    0.75463,
+    0.852362,
+    0.828704,
+    0.883858
+   ],
+   "tintable": false
+  },
+  "starfield.tales.wall": {
+   "mask": true,
+   "shape": [
+    0.837963,
+    0.852362,
+    0.912037,
+    0.883858
+   ],
+   "tintable": false
+  },
+  "starfield.tales.water": {
+   "mask": true,
+   "shape": [
+    0.921296,
+    0.852362,
+    0.99537,
+    0.883858
+   ],
+   "tintable": false
+  },
+  "starfield.tales.week": {
+   "mask": true,
+   "shape": [
+    0.00463,
+    0.887795,
+    0.078704,
+    0.919291
+   ],
+   "tintable": false
+  },
+  "starfield.tales.weight": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.887795,
+    0.162037,
+    0.919291
+   ],
+   "tintable": false
+  },
+  "starfield.tales.world": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.887795,
+    0.24537,
+    0.919291
+   ],
+   "tintable": false
+  },
+  "starfield.tales.wrench": {
+   "mask": true,
+   "shape": [
+    0.25463,
+    0.887795,
+    0.328704,
+    0.919291
+   ],
+   "tintable": false
+  },
+  "starfield.tales.xp": {
+   "mask": true,
+   "shape": [
+    0.337963,
+    0.887795,
+    0.412037,
+    0.919291
+   ],
+   "tintable": false
+  },
+  "starfield.weapon.beowulf": {
+   "mask": true,
+   "shape": [
+    0.087963,
+    0.923228,
+    0.162037,
+    0.954724
+   ],
+   "tintable": false
+  },
+  "starfield.weapon.eon": {
+   "mask": true,
+   "shape": [
+    0.171296,
+    0.923228,
+    0.24537,
+    0.954724
+   ],
+   "tintable": false
+  }
+ },
+ "texture": "starfield.dds",
+ "version": 1,
+ "width": 1728
+}
