@@ -12,12 +12,10 @@ look that follows the player's HUD colour.
 Shared widgets and screens draw in **Modern, Fallout 4, Fallout 76, Skyrim, Starfield and
 Fallout 3 / New Vegas** styles, switched live in **Quick settings → Appearance → Theme**.
 
-## Supported runtimes
+## Icons
 
-Fallout 4 on Windows x64 with F4SE, on the runtimes your CommonLibF4 build targets. The
-framework uses no address IDs of its own (only CommonLibF4's `RE::` types and the D3D11 swap
-chain), and is used with `COMMONLIB_RUNTIMECOUNT=3`: Old Gen 1.10.163, Next Gen 1.10.984 and
-Anniversary 1.11.x. Needs MSVC with C++23 and xmake.
+All icons were re-make to be faithful to their source games. No native assets are used, all are traced or drawn by hand. I tried to get them as close to accurate as possible.
+
 
 ## Building and testing
 
